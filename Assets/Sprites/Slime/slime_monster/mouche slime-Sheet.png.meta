@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: fc641d0264a864c43810704d902b5af7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3452387287880514156
+    second: mouche slime-Sheet_0
+  - first:
+      213: -8790729710365195434
+    second: mouche slime-Sheet_1
+  - first:
+      213: -4069194704794201338
+    second: mouche slime-Sheet_2
+  - first:
+      213: 1565865126782103681
+    second: mouche slime-Sheet_3
+  - first:
+      213: -7701169410097770468
+    second: mouche slime-Sheet_4
+  - first:
+      213: 4107058465494188379
+    second: mouche slime-Sheet_5
+  - first:
+      213: -5871823480405599427
+    second: mouche slime-Sheet_6
+  - first:
+      213: -8029420154910990625
+    second: mouche slime-Sheet_7
+  - first:
+      213: 5466727535372461380
+    second: mouche slime-Sheet_8
+  - first:
+      213: -8392345015557779521
+    second: mouche slime-Sheet_9
+  - first:
+      213: -5406540843537966715
+    second: mouche slime-Sheet_10
+  - first:
+      213: 6986583075714780791
+    second: mouche slime-Sheet_11
+  - first:
+      213: 6212068074762196218
+    second: mouche slime-Sheet_12
+  - first:
+      213: 8880851120733467689
+    second: mouche slime-Sheet_13
+  - first:
+      213: -6083064815204209127
+    second: mouche slime-Sheet_14
+  - first:
+      213: 2132750519379187606
+    second: mouche slime-Sheet_15
+  - first:
+      213: -7807657758121818430
+    second: mouche slime-Sheet_16
+  - first:
+      213: 8870573064866698991
+    second: mouche slime-Sheet_17
+  - first:
+      213: 8814084786356745260
+    second: mouche slime-Sheet_18
+  - first:
+      213: 1487004836245237200
+    second: mouche slime-Sheet_19
+  - first:
+      213: 1345432070325891818
+    second: mouche slime-Sheet_20
+  - first:
+      213: 882421190584169459
+    second: mouche slime-Sheet_21
+  - first:
+      213: -9218712911197248689
+    second: mouche slime-Sheet_22
+  - first:
+      213: 498601330603478603
+    second: mouche slime-Sheet_23
+  - first:
+      213: -4075314386898193809
+    second: mouche slime-Sheet_24
+  - first:
+      213: -5699000630597393174
+    second: mouche slime-Sheet_25
+  - first:
+      213: -5454284298683727350
+    second: mouche slime-Sheet_26
+  - first:
+      213: 6240727243934298012
+    second: mouche slime-Sheet_27
+  - first:
+      213: 3026238798893885338
+    second: mouche slime-Sheet_28
+  - first:
+      213: -2177999609166005343
+    second: mouche slime-Sheet_29
+  - first:
+      213: 320717847199571553
+    second: mouche slime-Sheet_30
+  - first:
+      213: 2576755902850796422
+    second: mouche slime-Sheet_31
+  - first:
+      213: -1834964692948943733
+    second: mouche slime-Sheet_32
+  - first:
+      213: 2137879919913424728
+    second: mouche slime-Sheet_33
+  - first:
+      213: -1605147469573162237
+    second: mouche slime-Sheet_34
+  - first:
+      213: 5853094912380341731
+    second: mouche slime-Sheet_35
+  - first:
+      213: -7393415160907579633
+    second: mouche slime-Sheet_36
+  - first:
+      213: 3402807290563280919
+    second: mouche slime-Sheet_37
+  - first:
+      213: 8769203732159810942
+    second: mouche slime-Sheet_38
+  - first:
+      213: 6566915509425180584
+    second: mouche slime-Sheet_39
+  - first:
+      213: -4293032695851716433
+    second: mouche slime-Sheet_40
+  - first:
+      213: -7431993989352479106
+    second: mouche slime-Sheet_41
+  - first:
+      213: 7392819474721736734
+    second: mouche slime-Sheet_42
+  - first:
+      213: 8500942435572720395
+    second: mouche slime-Sheet_43
+  - first:
+      213: 5563195637248046824
+    second: mouche slime-Sheet_44
+  - first:
+      213: 7353132026876459305
+    second: mouche slime-Sheet_45
+  - first:
+      213: 5732540236222173151
+    second: mouche slime-Sheet_46
+  - first:
+      213: -3175125618766852647
+    second: mouche slime-Sheet_47
+  - first:
+      213: 4111057995703081503
+    second: mouche slime-Sheet_48
+  - first:
+      213: 3306036850142300557
+    second: mouche slime-Sheet_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mouche slime-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495cece9d08a610d0800000000000000
+      internalID: -3452387287880514156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653c53957ed010680800000000000000
+      internalID: -8790729710365195434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60357dab9f05787c0800000000000000
+      internalID: -4069194704794201338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180f40859021bb510800000000000000
+      internalID: 1565865126782103681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10940c5933ff1590800000000000000
+      internalID: -7701169410097770468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51ca8b0ae33ff830800000000000000
+      internalID: 4107058465494188379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b50a2a7a7138ea0800000000000000
+      internalID: -5871823480405599427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde1b2a29e4c19090800000000000000
+      internalID: -8029420154910990625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445e8bdbab7bddb40800000000000000
+      internalID: 5466727535372461380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf88234ca6688b80800000000000000
+      internalID: -8392345015557779521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58957457fbb18f4b0800000000000000
+      internalID: -5406540843537966715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e4cb57a4455f060800000000000000
+      internalID: 6986583075714780791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4deb44003b53650800000000000000
+      internalID: 6212068074762196218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924b272aa0f1f3b70800000000000000
+      internalID: 8880851120733467689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e6310b7cc949ba0800000000000000
+      internalID: -6083064815204209127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697502e2c4d099d10800000000000000
+      internalID: 2132750519379187606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6835fb2a0a5a390800000000000000
+      internalID: -7807657758121818430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe61785443b9a1b70800000000000000
+      internalID: 8870573064866698991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24f7f60a6be15a70800000000000000
+      internalID: 8814084786356745260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd6fa32507e2a410800000000000000
+      internalID: 1487004836245237200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2713de65feba210800000000000000
+      internalID: 1345432070325891818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3fb07c56dfe3c00800000000000000
+      internalID: 882421190584169459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43e7c9337d801080800000000000000
+      internalID: -9218712911197248689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche slime-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e482bb4436be600800000000000000
+      internalID: 498601330603478603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 82f51ca88006adf469b1b6be8646d30f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mouche slime-Sheet_0: -3452387287880514156
+      mouche slime-Sheet_1: -8790729710365195434
+      mouche slime-Sheet_10: -5406540843537966715
+      mouche slime-Sheet_11: 6986583075714780791
+      mouche slime-Sheet_12: 6212068074762196218
+      mouche slime-Sheet_13: 8880851120733467689
+      mouche slime-Sheet_14: -6083064815204209127
+      mouche slime-Sheet_15: 2132750519379187606
+      mouche slime-Sheet_16: -7807657758121818430
+      mouche slime-Sheet_17: 8870573064866698991
+      mouche slime-Sheet_18: 8814084786356745260
+      mouche slime-Sheet_19: 1487004836245237200
+      mouche slime-Sheet_2: -4069194704794201338
+      mouche slime-Sheet_20: 1345432070325891818
+      mouche slime-Sheet_21: 882421190584169459
+      mouche slime-Sheet_22: -9218712911197248689
+      mouche slime-Sheet_23: 498601330603478603
+      mouche slime-Sheet_3: 1565865126782103681
+      mouche slime-Sheet_4: -7701169410097770468
+      mouche slime-Sheet_5: 4107058465494188379
+      mouche slime-Sheet_6: -5871823480405599427
+      mouche slime-Sheet_7: -8029420154910990625
+      mouche slime-Sheet_8: 5466727535372461380
+      mouche slime-Sheet_9: -8392345015557779521
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

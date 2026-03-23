@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 575bff3a72d54b84c99794d5371e1a16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8310245780330764554
+    second: mouche-Sheet_0
+  - first:
+      213: 2998975175079175861
+    second: mouche-Sheet_1
+  - first:
+      213: -7931086607832578579
+    second: mouche-Sheet_2
+  - first:
+      213: -233900670338562550
+    second: mouche-Sheet_3
+  - first:
+      213: -1463744375213522513
+    second: mouche-Sheet_4
+  - first:
+      213: -5069099238645624643
+    second: mouche-Sheet_5
+  - first:
+      213: 2082336302611954917
+    second: mouche-Sheet_6
+  - first:
+      213: -1763205828728236119
+    second: mouche-Sheet_7
+  - first:
+      213: 5044236099923176932
+    second: mouche-Sheet_8
+  - first:
+      213: -5792108532856555817
+    second: mouche-Sheet_9
+  - first:
+      213: 1768776061746984716
+    second: mouche-Sheet_10
+  - first:
+      213: -2644585925845281218
+    second: mouche-Sheet_11
+  - first:
+      213: 8646487807452814802
+    second: mouche-Sheet_12
+  - first:
+      213: -5637077311849507678
+    second: mouche-Sheet_13
+  - first:
+      213: -2717036184752427298
+    second: mouche-Sheet_14
+  - first:
+      213: 4030777131395911741
+    second: mouche-Sheet_15
+  - first:
+      213: -8884916090965803761
+    second: mouche-Sheet_16
+  - first:
+      213: -2314709734710962147
+    second: mouche-Sheet_17
+  - first:
+      213: -3769618056277502691
+    second: mouche-Sheet_18
+  - first:
+      213: 7004234584098684802
+    second: mouche-Sheet_19
+  - first:
+      213: -2504037744691368237
+    second: mouche-Sheet_20
+  - first:
+      213: -6752662676355878375
+    second: mouche-Sheet_21
+  - first:
+      213: 8804997254793776072
+    second: mouche-Sheet_22
+  - first:
+      213: 2856705449081084089
+    second: mouche-Sheet_23
+  - first:
+      213: 3214623607424054413
+    second: mouche-Sheet_24
+  - first:
+      213: 6018477960992925353
+    second: mouche-Sheet_25
+  - first:
+      213: -4964699003027482892
+    second: mouche-Sheet_26
+  - first:
+      213: -3245445629226763287
+    second: mouche-Sheet_27
+  - first:
+      213: -3712977904359855252
+    second: mouche-Sheet_28
+  - first:
+      213: -4461199170499345920
+    second: mouche-Sheet_29
+  - first:
+      213: -8599829437565326337
+    second: mouche-Sheet_30
+  - first:
+      213: 6004888343533233206
+    second: mouche-Sheet_31
+  - first:
+      213: 8328028881287303912
+    second: mouche-Sheet_32
+  - first:
+      213: -8987641157259654385
+    second: mouche-Sheet_33
+  - first:
+      213: -8046723087874207145
+    second: mouche-Sheet_34
+  - first:
+      213: 6024741538211703003
+    second: mouche-Sheet_35
+  - first:
+      213: -9207975453768604931
+    second: mouche-Sheet_36
+  - first:
+      213: 2150381200732552414
+    second: mouche-Sheet_37
+  - first:
+      213: -496053880928015253
+    second: mouche-Sheet_38
+  - first:
+      213: 1579019664082888349
+    second: mouche-Sheet_39
+  - first:
+      213: 984260686262270238
+    second: mouche-Sheet_40
+  - first:
+      213: -3594795247160732605
+    second: mouche-Sheet_41
+  - first:
+      213: 2738332455803745784
+    second: mouche-Sheet_42
+  - first:
+      213: -4821210576232341909
+    second: mouche-Sheet_43
+  - first:
+      213: -9128225982955428854
+    second: mouche-Sheet_44
+  - first:
+      213: 5851321514146566857
+    second: mouche-Sheet_45
+  - first:
+      213: 1297561151307030154
+    second: mouche-Sheet_46
+  - first:
+      213: 4501116125328208146
+    second: mouche-Sheet_47
+  - first:
+      213: -4015728641370656075
+    second: mouche-Sheet_48
+  - first:
+      213: -2110087290653267651
+    second: mouche-Sheet_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mouche-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6223b0e731cac80800000000000000
+      internalID: -8310245780330764554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b62fc058008e9920800000000000000
+      internalID: 2998975175079175861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5084930ce1fe190800000000000000
+      internalID: -7931086607832578579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a068ebf549401ccf0800000000000000
+      internalID: -233900670338562550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa10c69fe3cbfabe0800000000000000
+      internalID: -1463744375213522513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db013558911f6a9b0800000000000000
+      internalID: -5069099238645624643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecf514a5d1f5ec10800000000000000
+      internalID: 2082336302611954917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a751c004a5d787e0800000000000000
+      internalID: -1763205828728236119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed6f13e10ab00640800000000000000
+      internalID: 5044236099923176932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6739e2afb4e9fa0800000000000000
+      internalID: -5792108532856555817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07b4afe474fb8810800000000000000
+      internalID: 1768776061746984716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e369effac1b8c4bd0800000000000000
+      internalID: -2644585925845281218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd98fd89de7ef770800000000000000
+      internalID: 8646487807452814802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4dbc72d0415c1b0800000000000000
+      internalID: -5637077311849507678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edee2f54cf52b4ad0800000000000000
+      internalID: -2717036184752427298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d301f9de17230f730800000000000000
+      internalID: 4030777131395911741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0db4dab3ef62b480800000000000000
+      internalID: -8884916090965803761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d181a6892cf70efd0800000000000000
+      internalID: -2314709734710962147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d155ea0a950afabc0800000000000000
+      internalID: -3769618056277502691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f35b48e3a043160800000000000000
+      internalID: 7004234584098684802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de208b20fedf3dd0800000000000000
+      internalID: -2504037744691368237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912f4cfa219b942a0800000000000000
+      internalID: -6752662676355878375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbc5443a52a13a70800000000000000
+      internalID: 8804997254793776072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouche-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b89660787e05a720800000000000000
+      internalID: 2856705449081084089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 92c8853f065714447aa4c87126e1dc10
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mouche-Sheet_0: -8310245780330764554
+      mouche-Sheet_1: 2998975175079175861
+      mouche-Sheet_10: 1768776061746984716
+      mouche-Sheet_11: -2644585925845281218
+      mouche-Sheet_12: 8646487807452814802
+      mouche-Sheet_13: -5637077311849507678
+      mouche-Sheet_14: -2717036184752427298
+      mouche-Sheet_15: 4030777131395911741
+      mouche-Sheet_16: -8884916090965803761
+      mouche-Sheet_17: -2314709734710962147
+      mouche-Sheet_18: -3769618056277502691
+      mouche-Sheet_19: 7004234584098684802
+      mouche-Sheet_2: -7931086607832578579
+      mouche-Sheet_20: -2504037744691368237
+      mouche-Sheet_21: -6752662676355878375
+      mouche-Sheet_22: 8804997254793776072
+      mouche-Sheet_23: 2856705449081084089
+      mouche-Sheet_3: -233900670338562550
+      mouche-Sheet_4: -1463744375213522513
+      mouche-Sheet_5: -5069099238645624643
+      mouche-Sheet_6: 2082336302611954917
+      mouche-Sheet_7: -1763205828728236119
+      mouche-Sheet_8: 5044236099923176932
+      mouche-Sheet_9: -5792108532856555817
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
