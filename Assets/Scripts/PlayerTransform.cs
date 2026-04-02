@@ -11,7 +11,6 @@ public class PlayerTransform : MonoBehaviour
 
 
     public GameObject transformIndicator;
-    private Vector3 indicatorBaseScale;
 
     public PlayerMana mana;
     public float manaDrainRate = 2f; // Mana drain par seconde pendant transformation
@@ -24,10 +23,7 @@ public class PlayerTransform : MonoBehaviour
 
     void Start()
     {
-        if (transformIndicator != null)
-        {
-            indicatorBaseScale = transformIndicator.transform.localScale;
-        }
+
     }
 
     void Update()
@@ -77,8 +73,7 @@ public class PlayerTransform : MonoBehaviour
         {
             // Affiche uniquement si l’ennemi est à portée ET la mana est pleine
             transformIndicator.SetActive(nearbyEnemy != null && mana.currentMana >= mana.maxMana && !isTransformed);
-            float pulse = 1 + Mathf.Sin(Time.time * 5f) * 0.1f;
-            transformIndicator.transform.localScale = indicatorBaseScale * pulse;
+
         }
     }
 

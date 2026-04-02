@@ -31,6 +31,7 @@ public class PlayerHealth : MonoBehaviour
         else
         {
             animator.SetTrigger("Hurt");
+            GetComponent<PlayerMana>().AddMana(damage);
         }
 
         UpdateHealthBar();

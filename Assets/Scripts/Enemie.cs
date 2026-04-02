@@ -45,6 +45,9 @@ public class Enemie : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         targetPoint = pointB;
+
+        attackTimer = attackCooldown; 
+        attackCollider.enabled = false;
     }
 
     void FixedUpdate()
@@ -176,12 +179,12 @@ public class Enemie : MonoBehaviour
 
 
 
-    void StartAttack()
+    public void StartAttack()
     {
         attackCollider.enabled = true;
     }
 
-    void EndAttack()
+    public void EndAttack()
     {
         attackCollider.enabled = false;
     }

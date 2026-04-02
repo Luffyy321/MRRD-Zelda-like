@@ -1,0 +1,2359 @@
+Built from '6000.0/staging' branch; Version is '6000.0.65f1 (a18e2220bd50) revision 10587682'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'fr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-04-02T17:37:08Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+
+COMMAND LINE ARGUMENTS:
+C:\Users\cleme\OneDrive\Documents\unity\6000.0.65f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/cleme/Documents/unity/zelda_like
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+63736
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/cleme/Documents/unity/zelda_like
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cleme" at "2026-04-02T17:37:08.0789746Z"
+C:/Users/cleme/Documents/unity/zelda_like
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15044]  Target information:
+
+Player connection [15044]  * "[IP] 10.188.94.195 [Port] 0 [Flags] 2 [Guid] 929231526 [EditorId] 929231526 [Version] 1048832 [Id] WindowsEditor(7,AcerAspire3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15044] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.65f1 (a18e2220bd50)
+[Subsystems] Discovering subsystems at path C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cleme/Documents/unity/zelda_like/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8081 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              4e88955eebad4279a9cd1bad4f575241
+  Correlation Id:          73b6899fc59b1be610577fdbddae1cf6
+  External correlation Id: 7374939685236724899
+  Machine Id:              TKYlbcUYATvSqXUcPGtrgB1i15k=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cleme" (connect: 0.01s, validation: 0.00s, handshake: 3.54s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cleme-notifications" at "2026-04-02T17:37:11.6269061Z"
+[Licensing::Module] Licensing Background thread has ended after 3.57s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.025779 seconds.
+- Loaded All Assemblies, in  1.547 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.813 seconds
+Domain Reload Profiling: 2348ms
+	BeginReloadAssembly (498ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (125ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (273ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (574ms)
+			TypeCache.Refresh (569ms)
+				TypeCache.ScanAssembly (530ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (814ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (722ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067137549237-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.892 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.047 seconds
+Domain Reload Profiling: 1931ms
+	BeginReloadAssembly (555ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (51ms)
+				TypeCache.ScanAssembly (39ms)
+			BuildScriptInfoCaches (13ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1048ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 598 unused Assets / (156.0 KB). Loaded Objects now: 1101.
+Memory consumption went from 58.2 MB to 58.1 MB.
+Total: 13.990400 ms (FindLiveObjects: 0.156500 ms CreateObjectMapping: 0.084800 ms MarkObjects: 13.219300 ms  DeleteObjects: 0.527100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 423840.511595 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_458.asset
+  artifactKey: Guid(b54f18fdc4fe42a43b96291ac13695ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_458.asset using Guid(b54f18fdc4fe42a43b96291ac13695ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fb0e4215fbb20dde7b3955131b9f920') in 0.4553428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_260.asset
+  artifactKey: Guid(e73e73f580d5ba74b9a6970affe799db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_260.asset using Guid(e73e73f580d5ba74b9a6970affe799db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '340f0ce5077f588db5ebe2518f7e3e42') in 1.754224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_174.asset
+  artifactKey: Guid(a2e136f666497784f9c5aece9251f90e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_174.asset using Guid(a2e136f666497784f9c5aece9251f90e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6b4038bc056fdfd9f3de60536435c4a') in 0.0354575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_137.asset
+  artifactKey: Guid(a72f3ffd0a597b14bb3e2189e2645fff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_137.asset using Guid(a72f3ffd0a597b14bb3e2189e2645fff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55698a516d079264251e7ab024a32ff3') in 0.0250876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_317.asset
+  artifactKey: Guid(5403e2f699a1fef4bad7d2840a8bdb95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_317.asset using Guid(5403e2f699a1fef4bad7d2840a8bdb95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cc8cf6bc9c5c286283fc482c4722fef') in 0.0328539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_93.asset
+  artifactKey: Guid(861f6d1383157a94c9cfc67e435c23ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_93.asset using Guid(861f6d1383157a94c9cfc67e435c23ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e26a71a9cb58d559fe30f0b8769149bf') in 0.0224936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_173.asset
+  artifactKey: Guid(d9e4aa2f4c46b7742aeac7fcfa511fb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_173.asset using Guid(d9e4aa2f4c46b7742aeac7fcfa511fb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72cc37f34000c0bf8bc3300656c1865e') in 0.0249607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_445.asset
+  artifactKey: Guid(170ba7d6b7ce5594f860821989265a60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_445.asset using Guid(170ba7d6b7ce5594f860821989265a60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1db979bb85523725f57a2972b82c181') in 0.0289784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_75.asset
+  artifactKey: Guid(c470718aa2084bf44b8ef0de27478d51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_75.asset using Guid(c470718aa2084bf44b8ef0de27478d51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7eaf051affb1c8741e7b9a9c31b1c295') in 0.0226508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_220.asset
+  artifactKey: Guid(b4afa3d09256c70458ccc24e40a9c4f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_220.asset using Guid(b4afa3d09256c70458ccc24e40a9c4f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1e22fce8104f20242fde376026cb0f6') in 0.0288318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_304.asset
+  artifactKey: Guid(bf46044bfc0d9cb4888c1275fe99f2d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_304.asset using Guid(bf46044bfc0d9cb4888c1275fe99f2d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '272c66a8ff2bef956d070692bcdf7020') in 0.0220814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_470.asset
+  artifactKey: Guid(319aa5fdb7c544d469e71dc701f8a51b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_470.asset using Guid(319aa5fdb7c544d469e71dc701f8a51b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38b8d227067ab7022bd8344631aef6db') in 0.0202713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_463.asset
+  artifactKey: Guid(cf4c6ada4143cfc42a457932ceaecfe7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_463.asset using Guid(cf4c6ada4143cfc42a457932ceaecfe7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e6999f77ec196d48393abe7545885c3') in 0.0334725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_218.asset
+  artifactKey: Guid(2806db2fe41bf1640a567b758629feaa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_218.asset using Guid(2806db2fe41bf1640a567b758629feaa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f382a2e7f59cefc69e6f2214faba8706') in 0.0239372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_187.asset
+  artifactKey: Guid(cf37809c385395644b09d17b807a94fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_187.asset using Guid(cf37809c385395644b09d17b807a94fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90a7936e451cabef9a13fc750646aa22') in 0.0185544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_50.asset
+  artifactKey: Guid(fb859310d26b0a24ca618adc4da8cc71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_50.asset using Guid(fb859310d26b0a24ca618adc4da8cc71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c655c76259aeb2dc53cb8f3ca5a029e') in 0.0223647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_538.asset
+  artifactKey: Guid(16ea82b466bc492469989e30ed482190) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_538.asset using Guid(16ea82b466bc492469989e30ed482190) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00fe87adb4d7d451a2e7f5e9eb006cb0') in 0.0272639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_169.asset
+  artifactKey: Guid(cfc7903e1304fe245998b6148f09f467) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_169.asset using Guid(cfc7903e1304fe245998b6148f09f467) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fee0abfd5da5dc8c719a1a0e42a70ed') in 0.0286296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_340.asset
+  artifactKey: Guid(a8bd5d9b7e673e947aa7beef5e3f5d03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_340.asset using Guid(a8bd5d9b7e673e947aa7beef5e3f5d03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abb567f337da02905b60140440cd2f55') in 0.0294374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_209.asset
+  artifactKey: Guid(3a4dbda830046cc40b9ed5cd09eac18b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_209.asset using Guid(3a4dbda830046cc40b9ed5cd09eac18b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cf82e51585f0ba88c5aad56cd75db58') in 0.0242062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_381.asset
+  artifactKey: Guid(29cfab1d8f645714c906108ca51c06ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_381.asset using Guid(29cfab1d8f645714c906108ca51c06ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '917e7697e4b15121be7ebec244e352e1') in 0.0277381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_576.asset
+  artifactKey: Guid(6509f9ce66e33fe4da218f269ffa6b1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_576.asset using Guid(6509f9ce66e33fe4da218f269ffa6b1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcb786d569db099d7d43e3e42bbbd605') in 0.0274116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_211.asset
+  artifactKey: Guid(c7d7b170cfa3dd344ba924e4394bcefe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_211.asset using Guid(c7d7b170cfa3dd344ba924e4394bcefe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c583f034fd1ddbfe5c2db8bbd65b98d') in 0.0210239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_222.asset
+  artifactKey: Guid(7fce90178ba41434c8cc5b39c776993a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_222.asset using Guid(7fce90178ba41434c8cc5b39c776993a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '133cf6d3b68e26ea1ef18f86058e863f') in 0.0326307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_136.asset
+  artifactKey: Guid(478143500718fe044b847bf6632b7ee9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_136.asset using Guid(478143500718fe044b847bf6632b7ee9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6d24465dbcbacc227c4205c52c26801') in 0.0285366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_212.asset
+  artifactKey: Guid(5147063d891a3b44e9671802471d5f45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_212.asset using Guid(5147063d891a3b44e9671802471d5f45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a75749378c0ad9f72f446bd2ddf4dd1e') in 0.0289918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_507.asset
+  artifactKey: Guid(c30309f9db13608429ac90286c14202b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_507.asset using Guid(c30309f9db13608429ac90286c14202b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e4a2ecdbba02846cd42122790a20f3c') in 0.0304859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_89.asset
+  artifactKey: Guid(0b161de110835c941bff317a4ec1cc09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_89.asset using Guid(0b161de110835c941bff317a4ec1cc09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cea93a961ea408b8ac22c6652104d59') in 0.0272608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_556.asset
+  artifactKey: Guid(86b1f221290c28c49b638edcbead990c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_556.asset using Guid(86b1f221290c28c49b638edcbead990c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b842f40704ed5bcc4c1ff8c4677155a') in 0.0341971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_206.asset
+  artifactKey: Guid(ad652f732f3bb0c47b5cec4e126ddd8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_206.asset using Guid(ad652f732f3bb0c47b5cec4e126ddd8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42c5513800ca9fde962c32c997ff81e5') in 0.0257331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_76.asset
+  artifactKey: Guid(43d199089b043c843a42a863d982dc79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_76.asset using Guid(43d199089b043c843a42a863d982dc79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b319ebb8b8f35f79e36974fe85c16fa2') in 0.0304254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_82.asset
+  artifactKey: Guid(c0d23e4034179a74485117701729f616) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_82.asset using Guid(c0d23e4034179a74485117701729f616) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc5a0086d5042926bfc77d4d2308c58a') in 0.0341095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_107.asset
+  artifactKey: Guid(977c8ac56b9c66c43a5ba0bb79db730c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_107.asset using Guid(977c8ac56b9c66c43a5ba0bb79db730c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a135e386b0d71e7a4efed9cd53ee399') in 0.0237636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_261.asset
+  artifactKey: Guid(67a5ebf1ae2a70449861aa6017c01afc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_261.asset using Guid(67a5ebf1ae2a70449861aa6017c01afc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9332d7c7c1ece599f3b626eb65ea2ca2') in 0.0292868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_70.asset
+  artifactKey: Guid(5325b64a29cac7344891dcb12bdfade8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_70.asset using Guid(5325b64a29cac7344891dcb12bdfade8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '848a50d0ee1409b1d6ae6a55685293ef') in 0.0323136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_549.asset
+  artifactKey: Guid(95222a96d3c53f444b3c7d736d6f0e9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_549.asset using Guid(95222a96d3c53f444b3c7d736d6f0e9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb120d59fdf466de6692f72c028b7d8b') in 0.026227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_249.asset
+  artifactKey: Guid(86d99bff919fd18419ecbee3b7c47b59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_249.asset using Guid(86d99bff919fd18419ecbee3b7c47b59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f516eb604c3cb37b608a9a11eaa07d9') in 0.0330875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_464.asset
+  artifactKey: Guid(25015f70875560b4f899d43ed3d4de4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_464.asset using Guid(25015f70875560b4f899d43ed3d4de4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '045d4eb09c4b305cf899bae27a47764d') in 0.0396084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_63.asset
+  artifactKey: Guid(cadd773d53a525c499f8a870c5f2ff5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_63.asset using Guid(cadd773d53a525c499f8a870c5f2ff5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcb830ffbaaaa7bf56ffc5238018d658') in 0.0369644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_145.asset
+  artifactKey: Guid(f68fb20e72bc32043969fd75ccf25a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_145.asset using Guid(f68fb20e72bc32043969fd75ccf25a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37b8196748cdecd2dfcbd2036e9b4150') in 0.0321376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_148.asset
+  artifactKey: Guid(2d5f8a3b7ef088b4d9a956a8931781d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_148.asset using Guid(2d5f8a3b7ef088b4d9a956a8931781d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddd758a1b6eefef64f155c024644c131') in 0.035633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_482.asset
+  artifactKey: Guid(be081a6b46bc91c4b9233406b3fe0d9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_482.asset using Guid(be081a6b46bc91c4b9233406b3fe0d9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dae8e9e8e6f1d7a4caa26bed5182b0d4') in 0.0291793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_434.asset
+  artifactKey: Guid(179c13be11781d148a56f19ecc65f6b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_434.asset using Guid(179c13be11781d148a56f19ecc65f6b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e5344128852ebc4fd0191b5a5108034') in 0.0377441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_392.asset
+  artifactKey: Guid(f655d91cdbd3b6f43a4a4d1c05ae29e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_392.asset using Guid(f655d91cdbd3b6f43a4a4d1c05ae29e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd24f2418ad030ebd1d981e8bb968867c') in 0.0394178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_441.asset
+  artifactKey: Guid(fa9613927e70c3f46a1b944c02ac86c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_441.asset using Guid(fa9613927e70c3f46a1b944c02ac86c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef43c0a7682ae22e6f7252585755f598') in 0.0282756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_310.asset
+  artifactKey: Guid(3160a77dd3ef3c54085ffd16e163f2b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_310.asset using Guid(3160a77dd3ef3c54085ffd16e163f2b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f81a6c423f04d9092b42490380e3b48b') in 0.0489107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_67.asset
+  artifactKey: Guid(d31fb9c8d5beea841a1c062e13d04a95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_67.asset using Guid(d31fb9c8d5beea841a1c062e13d04a95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12188d29a8e998a271391a189f7e9d70') in 0.0237789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_478.asset
+  artifactKey: Guid(87aa97e1a4f33a843a33ea2227c91a82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_478.asset using Guid(87aa97e1a4f33a843a33ea2227c91a82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4138ccfec282481795ed329382cb00b4') in 0.0303662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_164.asset
+  artifactKey: Guid(e1d6d911041988c4d884773e027ce8f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_164.asset using Guid(e1d6d911041988c4d884773e027ce8f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '929c9f1adb66e19e6cf3021b6ffcf632') in 0.0278631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_584.asset
+  artifactKey: Guid(5a0e3bc58e8545f46ac27e932238e96e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_584.asset using Guid(5a0e3bc58e8545f46ac27e932238e96e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1413f37b73975e28d43ce6f311a1329a') in 0.0232601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_377.asset
+  artifactKey: Guid(8f88d329abe8ea34f855a2d4f3de8044) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_377.asset using Guid(8f88d329abe8ea34f855a2d4f3de8044) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b906899de637a62f371cee2412111d11') in 0.0322275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_523.asset
+  artifactKey: Guid(a80d8e19cf7f9d041b85ae1adbbdc78e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_523.asset using Guid(a80d8e19cf7f9d041b85ae1adbbdc78e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc3642f865d16dc71b4eeb748dd036fc') in 0.025445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_25.asset
+  artifactKey: Guid(142b5e77636e3f04f9b90955dd337c67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_25.asset using Guid(142b5e77636e3f04f9b90955dd337c67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98bd7a388fbb56e6f3390695c3d0dc7c') in 0.0236791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_266.asset
+  artifactKey: Guid(df68da9f4a626d342a4f46e4db3a750d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_266.asset using Guid(df68da9f4a626d342a4f46e4db3a750d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b8a4de309416543fc92ec30fb5881da') in 0.0329616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_242.asset
+  artifactKey: Guid(a292db77be3b67f45852c8d5d9355d27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_242.asset using Guid(a292db77be3b67f45852c8d5d9355d27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c64e9dc19fe22c253a729eb51d597cb5') in 0.0220399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 725.954351 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_33.asset
+  artifactKey: Guid(87a6a4fcf6c80d1459d3fb6da0c37c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_33.asset using Guid(87a6a4fcf6c80d1459d3fb6da0c37c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bff6800f3286787a01963d45ed7eb1e') in 0.3764044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_50.asset
+  artifactKey: Guid(fb859310d26b0a24ca618adc4da8cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_50.asset using Guid(fb859310d26b0a24ca618adc4da8cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4848c0c7b426321d916c01fa3ed2802') in 0.0430915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_49.asset
+  artifactKey: Guid(959526733e7ac1d45911fdcf0c617d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_49.asset using Guid(959526733e7ac1d45911fdcf0c617d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dcdf21a426339f92d0c7a877888915a') in 0.014212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001267 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_46.asset
+  artifactKey: Guid(d77447eb9ac48c041adf1666fbbacb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_46.asset using Guid(d77447eb9ac48c041adf1666fbbacb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78eab4577e5228c08907cff3dbdc5bc9') in 0.0261681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_39.asset
+  artifactKey: Guid(2caca29df012a3b4a8b61a6ff5be2420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_39.asset using Guid(2caca29df012a3b4a8b61a6ff5be2420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ad688ccd8f14b7ee5818fd9d0d7a092') in 0.0326676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_35.asset
+  artifactKey: Guid(9fcaa1185cc40c14eb7c78c5bb16c9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_35.asset using Guid(9fcaa1185cc40c14eb7c78c5bb16c9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b77999ba64789ec5e4c999f52f8d1a41') in 0.0375261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194410 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_55.asset
+  artifactKey: Guid(61d3a7b243c80794a9d38f8b51a46249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_55.asset using Guid(61d3a7b243c80794a9d38f8b51a46249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acd496e23e05749fde8806339b594dcc') in 0.0263303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_64.asset
+  artifactKey: Guid(3fe919c586b18224b83df88cae3c6b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_64.asset using Guid(3fe919c586b18224b83df88cae3c6b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4701983a86ca7b883695146fee573f5') in 0.0330951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_65.asset
+  artifactKey: Guid(de787a3582914b3478539b4f00d6f6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_65.asset using Guid(de787a3582914b3478539b4f00d6f6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2df4d42e5c9cbdf0cc05a7b4eebec079') in 0.035789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_72.asset
+  artifactKey: Guid(a0cd8b2876e54434887951d69e8e332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_72.asset using Guid(a0cd8b2876e54434887951d69e8e332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4d62f6890ff41af3eeecd8017472a43') in 0.0316588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_56.asset
+  artifactKey: Guid(15bce1577bcfc134e8c1ee735de8a6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_56.asset using Guid(15bce1577bcfc134e8c1ee735de8a6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9084e06593f733368413d981000f1946') in 0.0311364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001570 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_61.asset
+  artifactKey: Guid(c6a023a5c94560743ac3132cd32f980a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_61.asset using Guid(c6a023a5c94560743ac3132cd32f980a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70e2532f00f3e1f86a9c9bf78d6da379') in 0.0359455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_67.asset
+  artifactKey: Guid(d31fb9c8d5beea841a1c062e13d04a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_67.asset using Guid(d31fb9c8d5beea841a1c062e13d04a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d85e2866ce0b782a17108ec4ee1f20') in 0.0116763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_74.asset
+  artifactKey: Guid(bbaf578a4677e9941a0f30597a2b485d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_74.asset using Guid(bbaf578a4677e9941a0f30597a2b485d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c583b6f6ccfbc1fb6bac6e8d0a8bbe9') in 0.030445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_60.asset
+  artifactKey: Guid(a013a8d87f24df745a86470e8bcff92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_60.asset using Guid(a013a8d87f24df745a86470e8bcff92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98c667b42ae6139e776f9860f5b6956d') in 0.0399351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_66.asset
+  artifactKey: Guid(7a19d8769c1593d4a83acca5ace7a3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_66.asset using Guid(7a19d8769c1593d4a83acca5ace7a3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e561a440bee84323f99a830dc915d63') in 0.0301076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.358036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_77.asset
+  artifactKey: Guid(16182020ecc84194993c049c7356e8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_77.asset using Guid(16182020ecc84194993c049c7356e8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22ddbb993a2f67f4dfc558986dbae027') in 0.0252182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_81.asset
+  artifactKey: Guid(af000c14e349e4e4abc92767b94c7133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_81.asset using Guid(af000c14e349e4e4abc92767b94c7133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2903793859acc40293b188c69aebc7b9') in 0.0136254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_86.asset
+  artifactKey: Guid(e97385ab9b996bd468e6dd491044f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_86.asset using Guid(e97385ab9b996bd468e6dd491044f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f266956358657b56ab502227a9ac8bf8') in 0.035139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_78.asset
+  artifactKey: Guid(2477c255abd238340b5f268072187bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_78.asset using Guid(2477c255abd238340b5f268072187bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9536067b0324370c6ea86de79fdce20') in 0.035428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_80.asset
+  artifactKey: Guid(a205aecdc2874d446a305368a9d70abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_80.asset using Guid(a205aecdc2874d446a305368a9d70abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ffb5619dcd0fb1177d17608e0424fb4') in 0.0279177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399553 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_88.asset
+  artifactKey: Guid(4d28ac0baee4a1044a286c29fffc9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_88.asset using Guid(4d28ac0baee4a1044a286c29fffc9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f428851f3f1897521d2803003492120') in 0.0128035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_91.asset
+  artifactKey: Guid(7c1a7fa05c3c8034fa70623fd5b9ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_91.asset using Guid(7c1a7fa05c3c8034fa70623fd5b9ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6226728a43d9b0795d0ce68eef9e95c6') in 0.0436793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_94.asset
+  artifactKey: Guid(76913eda067966143acb1598f693ce8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_94.asset using Guid(76913eda067966143acb1598f693ce8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bad8c1a580abe36c582d43cb74d3b5c') in 0.0318973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_92.asset
+  artifactKey: Guid(2025050844fbc9a42aa07ec4a23ec64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_92.asset using Guid(2025050844fbc9a42aa07ec4a23ec64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a53db6d4a343bfe674f41c7f176c556f') in 0.0295746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_98.asset
+  artifactKey: Guid(e758de8829b7a35418a978ebb05a641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_98.asset using Guid(e758de8829b7a35418a978ebb05a641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '001c86428e9ec94eee6c41cfec6110fb') in 0.0314259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_109.asset
+  artifactKey: Guid(d5c5c1999ff17e74899e8d7d9789c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_109.asset using Guid(d5c5c1999ff17e74899e8d7d9789c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17c411d72e845d2cd0aa39f568d9d558') in 0.0321002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_107.asset
+  artifactKey: Guid(977c8ac56b9c66c43a5ba0bb79db730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_107.asset using Guid(977c8ac56b9c66c43a5ba0bb79db730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02cb683b90d7f2875e666861ff39a5db') in 0.0287674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_112.asset
+  artifactKey: Guid(454e037ce2c31ed438c85c2c58d08e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_112.asset using Guid(454e037ce2c31ed438c85c2c58d08e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '704d946a5cbd85fb2262bc3d70956d63') in 0.0406105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_106.asset
+  artifactKey: Guid(c84915f6570f307428ddef88842dec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_106.asset using Guid(c84915f6570f307428ddef88842dec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6109c84e98d7f63e02be49ed707143') in 0.0161429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_116.asset
+  artifactKey: Guid(0ffbe7f6b146c2e408fc3a91a9ce40d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_116.asset using Guid(0ffbe7f6b146c2e408fc3a91a9ce40d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef10106e4852b7c70affb1a3e8c6fe96') in 0.0311155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_100.asset
+  artifactKey: Guid(dfaedc0ec3fad9748875dfb7dd8b3fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_100.asset using Guid(dfaedc0ec3fad9748875dfb7dd8b3fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c529d779f2f35cad381f760e6440eb0') in 0.0309734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_104.asset
+  artifactKey: Guid(ed68c0c4c000c3b4387ae0e26a7870a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_104.asset using Guid(ed68c0c4c000c3b4387ae0e26a7870a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93c6860183fe074442d311700d4b9b89') in 0.0146112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_114.asset
+  artifactKey: Guid(7429f73ab67b60b48a99c78672bef789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_114.asset using Guid(7429f73ab67b60b48a99c78672bef789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3852b3154b0ea20cc1eff769e8906229') in 0.0303747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_90.asset
+  artifactKey: Guid(0bb13049e4410704cabbb391c237a3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_90.asset using Guid(0bb13049e4410704cabbb391c237a3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bae6f95e14d6b69dee3139c1df53cb5f') in 0.0313746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_108.asset
+  artifactKey: Guid(1ac6019031a2d0a43aa51a0bc3f6e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_108.asset using Guid(1ac6019031a2d0a43aa51a0bc3f6e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05f62bb018a9e42d227cb8ec88f1abb1') in 0.0167283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_115.asset
+  artifactKey: Guid(7f2a0a72267de434fbb7ba370814a993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_115.asset using Guid(7f2a0a72267de434fbb7ba370814a993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7eb01530eaab7b7e0048d839f88848f6') in 0.035174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_103.asset
+  artifactKey: Guid(1db349840f1f56041aad8c7305bdaf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_103.asset using Guid(1db349840f1f56041aad8c7305bdaf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80b383b93f0e3998b6873e533b1728e2') in 0.0173409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193509 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_121.asset
+  artifactKey: Guid(31206624a96a69a44b6f73f94d1ecc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_121.asset using Guid(31206624a96a69a44b6f73f94d1ecc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9461998669fe3a28dad50eaa28bd7790') in 0.0370141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_123.asset
+  artifactKey: Guid(a1b9879a02d6bed42b9878dc79b9c90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_123.asset using Guid(a1b9879a02d6bed42b9878dc79b9c90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31e964a28d81228d5392285eaace9fc6') in 0.0304464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_137.asset
+  artifactKey: Guid(a72f3ffd0a597b14bb3e2189e2645fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_137.asset using Guid(a72f3ffd0a597b14bb3e2189e2645fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '599cbde51825fc908544c5e0f5702992') in 0.0294322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_126.asset
+  artifactKey: Guid(ab4fce66de137544da97ea6263c5d132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_126.asset using Guid(ab4fce66de137544da97ea6263c5d132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '254a8e3ed8f2d26dadbb14ece9ceb9ce') in 0.0277531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_136.asset
+  artifactKey: Guid(478143500718fe044b847bf6632b7ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_136.asset using Guid(478143500718fe044b847bf6632b7ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f8d1b5f04a42b4bb34707a38d19b180') in 0.0230216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_128.asset
+  artifactKey: Guid(eb11e225a8492814ab722360a059e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_128.asset using Guid(eb11e225a8492814ab722360a059e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c11622519fe648d9b7be34f32785143') in 0.0295312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_129.asset
+  artifactKey: Guid(f14cf4048cbc5ec4a9573161dad169e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_129.asset using Guid(f14cf4048cbc5ec4a9573161dad169e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3862a97c78e0ce3988c06174be93e269') in 0.0286127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_124.asset
+  artifactKey: Guid(dfd19ea87cb201845a43ec5699ee54db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_124.asset using Guid(dfd19ea87cb201845a43ec5699ee54db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6bc8950fb44f4db7defa0c11a1f91a9') in 0.0279189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_140.asset
+  artifactKey: Guid(15311e3e29dd6e347bfd35558662a223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_140.asset using Guid(15311e3e29dd6e347bfd35558662a223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8fa129e55945091d27ac98d35fd3258') in 0.0276106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_134.asset
+  artifactKey: Guid(14846cb8cadf3cc48aa01e8eef7137ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_134.asset using Guid(14846cb8cadf3cc48aa01e8eef7137ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f67f58c48a6db4930947228d52a93ac') in 0.0279382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_141.asset
+  artifactKey: Guid(33d4c86b1f69dd24a8162c1b61fd1407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_141.asset using Guid(33d4c86b1f69dd24a8162c1b61fd1407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7d3e5ec9fa24a845731dfb338169b4') in 0.0310325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256293 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_143.asset
+  artifactKey: Guid(955f9f176db1b734d8c930d97a5e3bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_143.asset using Guid(955f9f176db1b734d8c930d97a5e3bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76502cf1f1bdb66df3bbf3c6b4cbe6fd') in 0.0278002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_144.asset
+  artifactKey: Guid(31f9735d74e81ae49aada04fe8b2181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_144.asset using Guid(31f9735d74e81ae49aada04fe8b2181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '009766ff07d19f71b33ca654d1fed8df') in 0.0307557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_145.asset
+  artifactKey: Guid(f68fb20e72bc32043969fd75ccf25a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_145.asset using Guid(f68fb20e72bc32043969fd75ccf25a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bd17b833aa3e383764f96f1bea0bb9f') in 0.026475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_149.asset
+  artifactKey: Guid(4c71c14f2d7ee5e4097a91af9537430e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_149.asset using Guid(4c71c14f2d7ee5e4097a91af9537430e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f200128b28019446c945f5e5594ebfe6') in 0.03091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_161.asset
+  artifactKey: Guid(ff688087ffaf9894b872419869c57df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_161.asset using Guid(ff688087ffaf9894b872419869c57df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a1a16744930da82f856f2a821d11faf') in 0.0130219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_153.asset
+  artifactKey: Guid(aa0af4f0794b2304c81539bc443bca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_153.asset using Guid(aa0af4f0794b2304c81539bc443bca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5fa7d11e9425198269b4410996f5201') in 0.0158781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_155.asset
+  artifactKey: Guid(f64d34ed37d12ba4e9960a53078bd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_155.asset using Guid(f64d34ed37d12ba4e9960a53078bd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a4c095e4953aee485f8104e6dc43653') in 0.0276909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_157.asset
+  artifactKey: Guid(8d148e4dcb7af284fb810cb3b8203fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_157.asset using Guid(8d148e4dcb7af284fb810cb3b8203fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4071115b8c704286f261cd7aef0d305') in 0.0305238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_162.asset
+  artifactKey: Guid(aef0ef5a79f149341aab58218eaca655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_162.asset using Guid(aef0ef5a79f149341aab58218eaca655) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f4b643af807931032fb3b1fe894324b') in 0.0190902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_151.asset
+  artifactKey: Guid(96c8ffc98f11eb744bd11ae7babef9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_151.asset using Guid(96c8ffc98f11eb744bd11ae7babef9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad58a2ee3d34a37aea2cb0d31fb269e0') in 0.0366768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_150.asset
+  artifactKey: Guid(38147bbad50bba9428739ee1fbff3f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_150.asset using Guid(38147bbad50bba9428739ee1fbff3f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d45b88f6848b74f63e72a27f7d9621e') in 0.0117182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_159.asset
+  artifactKey: Guid(a4e60fa09c6e6f94eab6de623ed110f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_159.asset using Guid(a4e60fa09c6e6f94eab6de623ed110f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41f8a43e5782468d8398926b1ee07646') in 0.0107337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.335240 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_165.asset
+  artifactKey: Guid(76e71786c00b0e6459e168a000839e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_165.asset using Guid(76e71786c00b0e6459e168a000839e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd8e07236818940164dfa0cec33d81ee') in 0.0299258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_173.asset
+  artifactKey: Guid(d9e4aa2f4c46b7742aeac7fcfa511fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_173.asset using Guid(d9e4aa2f4c46b7742aeac7fcfa511fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbd8c1997644578170c2f9b1796b5a47') in 0.0303762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_174.asset
+  artifactKey: Guid(a2e136f666497784f9c5aece9251f90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_174.asset using Guid(a2e136f666497784f9c5aece9251f90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7b6d4f48c5a1c8dc1edba9b0ce3a03f') in 0.0209552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_167.asset
+  artifactKey: Guid(2b7851b130e80c147b2fb99f6627c76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_167.asset using Guid(2b7851b130e80c147b2fb99f6627c76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a296e239f0b347c56ec379e9a4277990') in 0.0338964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_170.asset
+  artifactKey: Guid(426869d730e95ee46adbf906e2ffee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_170.asset using Guid(426869d730e95ee46adbf906e2ffee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30a7972b3c061afb3ddf38d8548a01ff') in 0.0297583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_169.asset
+  artifactKey: Guid(cfc7903e1304fe245998b6148f09f467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_169.asset using Guid(cfc7903e1304fe245998b6148f09f467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3c999a3f4d3835f794640e35be19641') in 0.0321417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_180.asset
+  artifactKey: Guid(ce49a830af8cfa943843fd0eedfaaf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_180.asset using Guid(ce49a830af8cfa943843fd0eedfaaf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '571b899d610ece22df91aa40875cbec8') in 0.027449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_177.asset
+  artifactKey: Guid(511d4071a0281434c9390cc74ff27d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_177.asset using Guid(511d4071a0281434c9390cc74ff27d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e314c69676929c571cb75c4b7694b384') in 0.0146027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_168.asset
+  artifactKey: Guid(70020fa7fac96f540a743967e17490cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_168.asset using Guid(70020fa7fac96f540a743967e17490cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff14fe757077ed1c4f36305db710c8e2') in 0.0273207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466490 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_187.asset
+  artifactKey: Guid(cf37809c385395644b09d17b807a94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_187.asset using Guid(cf37809c385395644b09d17b807a94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82eb509a5db7d7a4c64731dc612ebbfe') in 0.0206541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_195.asset
+  artifactKey: Guid(7d0cc76cce0461244a64518982f6b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_195.asset using Guid(7d0cc76cce0461244a64518982f6b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9eab1e9d7ff99be4f9766229da33a35') in 0.0275249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_196.asset
+  artifactKey: Guid(519657f850b448e4f8d134e6634be755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_196.asset using Guid(519657f850b448e4f8d134e6634be755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0717f1a2f4b7cb242ce1e3e072f8b3b0') in 0.0294141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_191.asset
+  artifactKey: Guid(654649d1c5346ad4e9702c5e8ccce316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_191.asset using Guid(654649d1c5346ad4e9702c5e8ccce316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07509665a169eed27acb0bf9fbf6e155') in 0.0297351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_205.asset
+  artifactKey: Guid(59a2172542511d24e9ed19a3a2141c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_205.asset using Guid(59a2172542511d24e9ed19a3a2141c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac178dcfac3bb485e55d5ab44dc83e81') in 0.0265846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_203.asset
+  artifactKey: Guid(629c7caa4f3f9cb4caef17ca9c052367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_203.asset using Guid(629c7caa4f3f9cb4caef17ca9c052367) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5582577f9bfaeed855c70b7741c8576b') in 0.0254754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_213.asset
+  artifactKey: Guid(21aab3dc4969bf3419d64963888f38bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_213.asset using Guid(21aab3dc4969bf3419d64963888f38bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a428397f038b9516f7bb5366a5545c4') in 0.0122861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_218.asset
+  artifactKey: Guid(2806db2fe41bf1640a567b758629feaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_218.asset using Guid(2806db2fe41bf1640a567b758629feaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f40b55d5b76a02bc59f9d6912c082a33') in 0.014628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_211.asset
+  artifactKey: Guid(c7d7b170cfa3dd344ba924e4394bcefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_211.asset using Guid(c7d7b170cfa3dd344ba924e4394bcefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c98cfa69c2443857c264294123f7849') in 0.025183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_206.asset
+  artifactKey: Guid(ad652f732f3bb0c47b5cec4e126ddd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_206.asset using Guid(ad652f732f3bb0c47b5cec4e126ddd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f4748b686b21f277bbe3a5bd7539ddc') in 0.0255385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_209.asset
+  artifactKey: Guid(3a4dbda830046cc40b9ed5cd09eac18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_209.asset using Guid(3a4dbda830046cc40b9ed5cd09eac18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f943cbff4d369d90b621426b5defa0c2') in 0.0257077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_215.asset
+  artifactKey: Guid(989e1fce0626d61429223c2a4996be97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_215.asset using Guid(989e1fce0626d61429223c2a4996be97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcde11ea0a17e79abdca33bacfd0e87f') in 0.0285262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_207.asset
+  artifactKey: Guid(767beaf395520014ca28cdf6fb056d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_207.asset using Guid(767beaf395520014ca28cdf6fb056d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1212ed428ec4347bff22e97da287e3aa') in 0.028336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_208.asset
+  artifactKey: Guid(e268a4ee8de617d4098ccc6702d5f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_208.asset using Guid(e268a4ee8de617d4098ccc6702d5f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '207ad2c5d0fc6a508bd7f05562c63a81') in 0.0258565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_194.asset
+  artifactKey: Guid(f03d4964b7b6d024b900b933c7754aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_194.asset using Guid(f03d4964b7b6d024b900b933c7754aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '976647867bf3e71291ade26e779e7074') in 0.0274928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_200.asset
+  artifactKey: Guid(54f30c94d048a1a4994894576367d67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_200.asset using Guid(54f30c94d048a1a4994894576367d67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daa16658b80987383941660ec2652f6a') in 0.0106353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_197.asset
+  artifactKey: Guid(90cbf62dcc5182643939bc0b3bea637a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_197.asset using Guid(90cbf62dcc5182643939bc0b3bea637a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fafe6b148794c25e4783bdd4ce5c03c2') in 0.0108422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.518509 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_220.asset
+  artifactKey: Guid(b4afa3d09256c70458ccc24e40a9c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_220.asset using Guid(b4afa3d09256c70458ccc24e40a9c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '952224574b5021833c8504825fe5446f') in 0.0269717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_221.asset
+  artifactKey: Guid(40dda965392730144b187fbfd1ebfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_221.asset using Guid(40dda965392730144b187fbfd1ebfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faed568db75dde10ce767fce13884010') in 0.0287062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_228.asset
+  artifactKey: Guid(0041bc4a084fb554a8a3d38d59578e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_228.asset using Guid(0041bc4a084fb554a8a3d38d59578e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be8b22b6d0b6bb9b30bd7191c1ca29ea') in 0.0299114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_225.asset
+  artifactKey: Guid(2a7787e99af4ada4a88e07df078b54ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_225.asset using Guid(2a7787e99af4ada4a88e07df078b54ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1939df82ea0604a261d3622dff078b3c') in 0.0385832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_223.asset
+  artifactKey: Guid(4c65bbb9e40b5dc46a8a928da6ce06bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_223.asset using Guid(4c65bbb9e40b5dc46a8a928da6ce06bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '503491d0da82caa00ca5b6a999bc4a1f') in 0.0166236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_227.asset
+  artifactKey: Guid(1f2b6821b9a49b44f8f3836e867cc1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_227.asset using Guid(1f2b6821b9a49b44f8f3836e867cc1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c82ec5b445bef299fd7e7d830b8ac305') in 0.0133774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.586313 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_232.asset
+  artifactKey: Guid(5addecd06f749264fa0acefa908b8847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_232.asset using Guid(5addecd06f749264fa0acefa908b8847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81dee074b8b4a0c1fff9e8c7c5996c47') in 0.0231044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_240.asset
+  artifactKey: Guid(91a97dfc217cf7140b7839e4aa0a2fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_240.asset using Guid(91a97dfc217cf7140b7839e4aa0a2fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0905deb9aaa731dc881673c4bbf0fc92') in 0.0269349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_238.asset
+  artifactKey: Guid(53405be9656f63d40b4ae5df846076ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_238.asset using Guid(53405be9656f63d40b4ae5df846076ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23b2dfecefbc0ac5b0bddac992331b4b') in 0.0271209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_236.asset
+  artifactKey: Guid(80ae22387390b8f4db864f8e90c9b0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_236.asset using Guid(80ae22387390b8f4db864f8e90c9b0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f74326850020aa9f4da7459055dc3779') in 0.0483613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_249.asset
+  artifactKey: Guid(86d99bff919fd18419ecbee3b7c47b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_249.asset using Guid(86d99bff919fd18419ecbee3b7c47b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf654cbf248460ac677e75df01757c3f') in 0.0295575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_251.asset
+  artifactKey: Guid(ae033b894913dee4282ea675c45d3ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_251.asset using Guid(ae033b894913dee4282ea675c45d3ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '380634b37da5f03268d51de5521f2ce8') in 0.0315034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_253.asset
+  artifactKey: Guid(bffe4ff4f12b34849b4e215feda9dd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_253.asset using Guid(bffe4ff4f12b34849b4e215feda9dd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14a8d191d713806a5e9a43d92f59b103') in 0.012384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_246.asset
+  artifactKey: Guid(72adca7abf40fd8458f7ab0a326e95c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_246.asset using Guid(72adca7abf40fd8458f7ab0a326e95c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c0c81e6197d688d141b12c3beb8de06') in 0.0282205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_254.asset
+  artifactKey: Guid(445262716c89f89459f5e4fbef7f27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_254.asset using Guid(445262716c89f89459f5e4fbef7f27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58bd8fe4dc953fef45e3670ea18006a5') in 0.0285859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_252.asset
+  artifactKey: Guid(7636a618059ccc7459903a3664ef7945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_252.asset using Guid(7636a618059ccc7459903a3664ef7945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218a907b63dcaaf9c7b1dc3a126ba721') in 0.0317199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_255.asset
+  artifactKey: Guid(50e45529cc513414aa20dcec08afc311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_255.asset using Guid(50e45529cc513414aa20dcec08afc311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58d7cadfdc85b24b86dd605bc7e3ad31') in 0.0297732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.496974 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_265.asset
+  artifactKey: Guid(b991494687d893f4f9d087df2822bcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_265.asset using Guid(b991494687d893f4f9d087df2822bcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32955b244cb131d3daf4b7f98ef6c2f2') in 0.0233233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_270.asset
+  artifactKey: Guid(3e25133019f8ebb4dadbf95b15303f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_270.asset using Guid(3e25133019f8ebb4dadbf95b15303f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55cd3168d944856ba6eb1163bb20b2f') in 0.0142684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_272.asset
+  artifactKey: Guid(a238fec334033764da8f16817ce7d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_272.asset using Guid(a238fec334033764da8f16817ce7d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce07d80b615cacc7a881a1dba9c9064d') in 0.0151297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046366 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_276.asset
+  artifactKey: Guid(83b586c7626f7034da00230f482e1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_276.asset using Guid(83b586c7626f7034da00230f482e1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e659641132f2e0b7eb50dc7e07917a52') in 0.0248137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_280.asset
+  artifactKey: Guid(80afd05408fd96149abafa8bf5ae30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_280.asset using Guid(80afd05408fd96149abafa8bf5ae30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecc332273f896010b5e1dc668f007bbb') in 0.0273907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_279.asset
+  artifactKey: Guid(308d28ff5b39ba64fa1deef00c795192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_279.asset using Guid(308d28ff5b39ba64fa1deef00c795192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42c22257a9e5ff21afb0736a029f567e') in 0.0251659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.082629 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_287.asset
+  artifactKey: Guid(16e09ff9a6cece74593c8614e9e90cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_287.asset using Guid(16e09ff9a6cece74593c8614e9e90cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c13a826c2fa8db595f4985532242bf61') in 0.0226328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_294.asset
+  artifactKey: Guid(c4181d3ba49075048ae7da971742505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_294.asset using Guid(c4181d3ba49075048ae7da971742505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99a09b61197bd2b7a6c37005789ae878') in 0.0261558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_295.asset
+  artifactKey: Guid(1fb544f627b82014880fbd6d85d73a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_295.asset using Guid(1fb544f627b82014880fbd6d85d73a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f96986091d902a9a2b7a61edf22b0d8') in 0.0166518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027716 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_298.asset
+  artifactKey: Guid(95c6df69942f012469897f19a67f2262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_298.asset using Guid(95c6df69942f012469897f19a67f2262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ee64ab9c828fcc5251b2d069ba80c1a') in 0.0305066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_300.asset
+  artifactKey: Guid(17a57a5eab9ad234f8ed563b85154fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_300.asset using Guid(17a57a5eab9ad234f8ed563b85154fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c68098bdb2594c3253e44b1ef200eca') in 0.021467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_317.asset
+  artifactKey: Guid(5403e2f699a1fef4bad7d2840a8bdb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_317.asset using Guid(5403e2f699a1fef4bad7d2840a8bdb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0a0832c483de399548c02954ae6b6e2') in 0.0272547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_311.asset
+  artifactKey: Guid(fa190273c3091ce41bc0d6a4258c61c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_311.asset using Guid(fa190273c3091ce41bc0d6a4258c61c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c1e511fb96876392622e3651133f1f8') in 0.0125074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_301.asset
+  artifactKey: Guid(e8d91c47c68183a40b1c774eb965909e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_301.asset using Guid(e8d91c47c68183a40b1c774eb965909e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7884d76d45bc4dd9ffa21e7566bc7312') in 0.0100496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_312.asset
+  artifactKey: Guid(3cdd308f1f7e4d645a8954c1a5502af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_312.asset using Guid(3cdd308f1f7e4d645a8954c1a5502af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ff0bfd5ae72c228ff3dd67979f3160') in 0.0179512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.023088 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '935bd0262e634c4b57e517ca35e1b7b3') in 0.074923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Slime/slime_sword/sword1.png
+  artifactKey: Guid(60a7a919e9dff9649aaac1e5c94a3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slime/slime_sword/sword1.png using Guid(60a7a919e9dff9649aaac1e5c94a3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da3599bc4d4d215d909d96badbe34daa') in 0.0317443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
+  artifactKey: Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '810d4c363f8eb40c68777a455e9e1b98') in 0.0371041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png
+  artifactKey: Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png using Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74b836be41212687df662a06ced4ee55') in 0.0305258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.328203 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_320.asset
+  artifactKey: Guid(c334f80ea53efe441b886c18cc72db82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_320.asset using Guid(c334f80ea53efe441b886c18cc72db82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f51d28aa7e064d12f16c17f3106439b') in 0.0207759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_328.asset
+  artifactKey: Guid(39ec3e35e9de4824986fae04bd9795ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_328.asset using Guid(39ec3e35e9de4824986fae04bd9795ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91244b8e52d64e4b663ae256021a5e8c') in 0.0159038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_321.asset
+  artifactKey: Guid(12441e273787fb7469a3bbd21d6c549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_321.asset using Guid(12441e273787fb7469a3bbd21d6c549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '014bbb9c58803516f6965995dd16371b') in 0.010778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_323.asset
+  artifactKey: Guid(355e97623665bba469f140e57a5c3673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_323.asset using Guid(355e97623665bba469f140e57a5c3673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f4959e6b20f49729629edcd63f077e6') in 0.0617548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_327.asset
+  artifactKey: Guid(66cfdf142f43b3c4aa1ed65e20735a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_327.asset using Guid(66cfdf142f43b3c4aa1ed65e20735a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9506bbd94258dd509225fa7de322a373') in 0.0660647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119516 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_331.asset
+  artifactKey: Guid(0f71b23e07ddae7479de69bd4e726984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_331.asset using Guid(0f71b23e07ddae7479de69bd4e726984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dde6bb7611c7a71ee3a3aabb4a21084') in 0.0138983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_338.asset
+  artifactKey: Guid(95b87d5df3acca44d9d6199e2218d031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_338.asset using Guid(95b87d5df3acca44d9d6199e2218d031) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90403239bc14606ccccc34f36c11c50b') in 0.0325821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_332.asset
+  artifactKey: Guid(5b3492487566e8b4999be40949206f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_332.asset using Guid(5b3492487566e8b4999be40949206f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e26fcd789cf58e8b1d36e737a05827') in 0.0799405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612467 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_342.asset
+  artifactKey: Guid(283193c7fbb0a0848a77e0f843744599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_342.asset using Guid(283193c7fbb0a0848a77e0f843744599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce0774ddf31724f2d5810a26bd608eb5') in 0.0230792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_344.asset
+  artifactKey: Guid(5b759aa3ed0a3d24b93b351b86692755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_344.asset using Guid(5b759aa3ed0a3d24b93b351b86692755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eef056b7704e5b8997469bd97bdfc1ab') in 0.0685984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004541 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_351.asset
+  artifactKey: Guid(ba767f7c4f7f58a4ba3288b494d2df12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_351.asset using Guid(ba767f7c4f7f58a4ba3288b494d2df12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07b463106716e55dd06860f6809a8520') in 0.0454229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_355.asset
+  artifactKey: Guid(042c35410e44fb1448b904a365696fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_355.asset using Guid(042c35410e44fb1448b904a365696fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a385b09978a0252d90a1a4c9cf73f79') in 0.0856791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_356.asset
+  artifactKey: Guid(71f217dac890b2743ad6dd14e2152911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_356.asset using Guid(71f217dac890b2743ad6dd14e2152911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92dcaf895fdcc69709c721fb57d8d149') in 0.0568921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_360.asset
+  artifactKey: Guid(20238951996cf594195be52044b111ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_360.asset using Guid(20238951996cf594195be52044b111ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a98478a66b084f32c971a4bda45fe869') in 0.0618273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_352.asset
+  artifactKey: Guid(10c60896789b8bd4abebfb862f7d621a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_352.asset using Guid(10c60896789b8bd4abebfb862f7d621a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cfa904bbb2c307768a73b9b013df791') in 0.0456922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155409 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_364.asset
+  artifactKey: Guid(262e6047777538e4783688367e8cedda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_364.asset using Guid(262e6047777538e4783688367e8cedda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dced2dc345901a87d2a7b302018838a1') in 0.0483335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_372.asset
+  artifactKey: Guid(803f366814999e74788d2e1f1323b293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_372.asset using Guid(803f366814999e74788d2e1f1323b293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d89a0bdf388d9f1093d63fa5df4d82f') in 0.0298319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_369.asset
+  artifactKey: Guid(db01332c76769c341bd8847a63bb6423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_369.asset using Guid(db01332c76769c341bd8847a63bb6423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91f475fbd49e38e8c5359fc88ecfc8df') in 0.0348721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.436022 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_375.asset
+  artifactKey: Guid(ef8f9b9cc1151ca48b57e5d28a898734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_375.asset using Guid(ef8f9b9cc1151ca48b57e5d28a898734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f207e11ef742855d0ffde83ecae5d05e') in 0.0122439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_378.asset
+  artifactKey: Guid(65a0e1b13d3dd744384f1480a879810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_378.asset using Guid(65a0e1b13d3dd744384f1480a879810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab0cef3a2ad0da11f56e3a398804ec3d') in 0.0278518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_383.asset
+  artifactKey: Guid(5ed5296d56de853438e628342f38809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_383.asset using Guid(5ed5296d56de853438e628342f38809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5a397633b42ba48849aef2dd62f0de7') in 0.0670876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_381.asset
+  artifactKey: Guid(29cfab1d8f645714c906108ca51c06ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_381.asset using Guid(29cfab1d8f645714c906108ca51c06ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '342ba9baa659ca1fd696b2574a3c93ae') in 0.0668065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131397 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_386.asset
+  artifactKey: Guid(2970c37353f61224092cf2168087df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_386.asset using Guid(2970c37353f61224092cf2168087df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a5b07e2833238a230157eb5763e448') in 0.1823672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_392.asset
+  artifactKey: Guid(f655d91cdbd3b6f43a4a4d1c05ae29e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_392.asset using Guid(f655d91cdbd3b6f43a4a4d1c05ae29e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f30f9c0b5736f6d941183c0cd239d805') in 0.0554839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_391.asset
+  artifactKey: Guid(7ab0b8b9bb408d140bd835c691c46d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_391.asset using Guid(7ab0b8b9bb408d140bd835c691c46d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25106c311ebe0ff9390879e8f3322775') in 0.0367378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090142 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_397.asset
+  artifactKey: Guid(ab9274984038df0439ab546be255606c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_397.asset using Guid(ab9274984038df0439ab546be255606c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca332314d7ff8e1f0234fff680a5e916') in 0.0318751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_402.asset
+  artifactKey: Guid(1aa18038669838f4e8012b04edbf67ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_402.asset using Guid(1aa18038669838f4e8012b04edbf67ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7f76a127f48f3922b17822d1c8a2673') in 0.0420691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_405.asset
+  artifactKey: Guid(5f5d4e02e135d254199f137dd03063ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_405.asset using Guid(5f5d4e02e135d254199f137dd03063ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36f30528bad76ef165c9c8e65f49e926') in 0.038618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185524 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_408.asset
+  artifactKey: Guid(23d220c2e2cf1d84a85a0461b6a306a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_408.asset using Guid(23d220c2e2cf1d84a85a0461b6a306a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18c2e74532c8a5dffde3cb303b775b23') in 0.0298573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_416.asset
+  artifactKey: Guid(ad856b34642fcf4468ea957ed3ece8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_416.asset using Guid(ad856b34642fcf4468ea957ed3ece8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c96bdbac32e2b7341adf3cb48e684dd') in 0.0331685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_411.asset
+  artifactKey: Guid(445f3f9cf9327e84c80bb23d852c4672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_411.asset using Guid(445f3f9cf9327e84c80bb23d852c4672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c74b7a452d0264b0f4e1adcccec18a55') in 0.0361406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_415.asset
+  artifactKey: Guid(503cdc9238b3e214a81a1a9fd870fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_415.asset using Guid(503cdc9238b3e214a81a1a9fd870fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a20dcb5993b432e34bde46258d993b9') in 0.0332894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.460529 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_419.asset
+  artifactKey: Guid(74d9975913cee2640903de4a3d95d468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_419.asset using Guid(74d9975913cee2640903de4a3d95d468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c606244e44a47f6be326bf12b86537a1') in 0.0267519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_420.asset
+  artifactKey: Guid(d4d1ee0bf6a60104cb9d637205ee2c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_420.asset using Guid(d4d1ee0bf6a60104cb9d637205ee2c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4bb5898511af4e7ec51d9b8346c1e2e') in 0.0264043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_425.asset
+  artifactKey: Guid(0cd67cab349cb3c498e2c7e3cffe3985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_425.asset using Guid(0cd67cab349cb3c498e2c7e3cffe3985) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13eedb25a847e488546b996876849cc4') in 0.0296395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_424.asset
+  artifactKey: Guid(0b19184b033591a4faf3e4bce789cac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_424.asset using Guid(0b19184b033591a4faf3e4bce789cac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '052d312c80215d534966282442c5333f') in 0.0387755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_433.asset
+  artifactKey: Guid(2420c62ed93ef684c874f6cc40559ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_433.asset using Guid(2420c62ed93ef684c874f6cc40559ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99dc5eb460d36c0c29e4d834ff440229') in 0.1645751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_431.asset
+  artifactKey: Guid(a5560d6241cb6224784fcd4a1e381711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_431.asset using Guid(a5560d6241cb6224784fcd4a1e381711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6804c7df3036632dcca89bb869acc46') in 0.0113849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_428.asset
+  artifactKey: Guid(8d78cb9751722c749a3d58bbd010e39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_428.asset using Guid(8d78cb9751722c749a3d58bbd010e39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bddd2c8f7417b2e0c5029ecddeae69a4') in 0.0102987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.289363 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_441.asset
+  artifactKey: Guid(fa9613927e70c3f46a1b944c02ac86c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_441.asset using Guid(fa9613927e70c3f46a1b944c02ac86c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a565d0a85c0b2b504d96b81f864b0b66') in 0.0258285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_447.asset
+  artifactKey: Guid(f826be3b74348b940b6b418586d2006e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_447.asset using Guid(f826be3b74348b940b6b418586d2006e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e492cbd6248040cff29cbf02641400b') in 0.0301532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_449.asset
+  artifactKey: Guid(8176aad4c0269e740875f0098445d619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_449.asset using Guid(8176aad4c0269e740875f0098445d619) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da06422b4fbc2519b6ca0782e1653348') in 0.0530204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.427541 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_452.asset
+  artifactKey: Guid(1ff8d5a1e49b07742a27c56da5bb550a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_452.asset using Guid(1ff8d5a1e49b07742a27c56da5bb550a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b9251a1ff83f30bc1f52f6d03812a8f') in 0.0197737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_460.asset
+  artifactKey: Guid(dd61fb257b350d24aa5a0e22892c6160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_460.asset using Guid(dd61fb257b350d24aa5a0e22892c6160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6df63d076b19903e5b6efa70b4c02d9') in 0.0264547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_457.asset
+  artifactKey: Guid(55aa3d645c803174db48f02939eb4fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_457.asset using Guid(55aa3d645c803174db48f02939eb4fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e447d1d7b8eee179439dbc0e28b65ed4') in 0.0523437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_462.asset
+  artifactKey: Guid(fb5e6b34b6c605d42b74d0cb1696e503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_462.asset using Guid(fb5e6b34b6c605d42b74d0cb1696e503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10594732c6a831372b702761dcb0ddea') in 0.0566578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_465.asset
+  artifactKey: Guid(b90900218bd243c4092db91313c9ac10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_465.asset using Guid(b90900218bd243c4092db91313c9ac10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f115d18a167ac17afb18b411c1be65b8') in 0.045959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_467.asset
+  artifactKey: Guid(f8ec6d9d6d8f0fe4bad94847bd5150fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_467.asset using Guid(f8ec6d9d6d8f0fe4bad94847bd5150fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '039a57a2bd0c7219301e109e82540c0a') in 0.0257868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.544179 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_474.asset
+  artifactKey: Guid(809ef9174ad6e3545a539e397b74c0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_474.asset using Guid(809ef9174ad6e3545a539e397b74c0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a61ff9a75dc82a3b6c67381c466abcc') in 0.0259596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_480.asset
+  artifactKey: Guid(7e790f70701fa884d8e7839f356c23e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_480.asset using Guid(7e790f70701fa884d8e7839f356c23e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8576e8c91837b83cc2b8b0d745af74d9') in 0.0298569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_482.asset
+  artifactKey: Guid(be081a6b46bc91c4b9233406b3fe0d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_482.asset using Guid(be081a6b46bc91c4b9233406b3fe0d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'add2732ba4ae9026898720eda8bb980c') in 0.0423022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.435039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_485.asset
+  artifactKey: Guid(245adbc4ff987dd428da19e1d720fa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_485.asset using Guid(245adbc4ff987dd428da19e1d720fa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '772df97a160e284ce2155c1b08d96ce8') in 0.0227551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_493.asset
+  artifactKey: Guid(7098e7800dab7ac4f9647bb85d6e66ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_493.asset using Guid(7098e7800dab7ac4f9647bb85d6e66ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0441fa0fadf0e0372274b80a87a5f4f0') in 0.0250534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_488.asset
+  artifactKey: Guid(a124755cc1b042d44bf6c08405064a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_488.asset using Guid(a124755cc1b042d44bf6c08405064a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a58539ce04006e81725ccab59428e844') in 0.0424303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.486544 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_496.asset
+  artifactKey: Guid(51c9e2cbb0fc409428dad23b0f6d21ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_496.asset using Guid(51c9e2cbb0fc409428dad23b0f6d21ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f37becd5eda2608897fc9ba48b24c83') in 0.0251844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_500.asset
+  artifactKey: Guid(2d41f6a54e891534d9103a938aab9d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_500.asset using Guid(2d41f6a54e891534d9103a938aab9d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9137133a76d5f5c266301dc060c0429c') in 0.0318281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_502.asset
+  artifactKey: Guid(1cf38e1eebd9a904daeae31f4be0776c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_502.asset using Guid(1cf38e1eebd9a904daeae31f4be0776c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d60ece7c42ea7187495443b17d823b') in 0.0484861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311239 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_507.asset
+  artifactKey: Guid(c30309f9db13608429ac90286c14202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_507.asset using Guid(c30309f9db13608429ac90286c14202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7746c153d4d76d404e63f32b8df0452') in 0.0393107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_512.asset
+  artifactKey: Guid(2785d9a78e72125429efecff3476d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_512.asset using Guid(2785d9a78e72125429efecff3476d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51f3c19d2b87def8674a38a3fe54584b') in 0.0362912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366389 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_518.asset
+  artifactKey: Guid(3de6a78971807b843b2dd831af3bc051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_518.asset using Guid(3de6a78971807b843b2dd831af3bc051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5de15ca1759c3a9748c8fc5573c11824') in 0.0214121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_520.asset
+  artifactKey: Guid(41c5da7e29612b54fa6a197d15341530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_520.asset using Guid(41c5da7e29612b54fa6a197d15341530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f7174a9954883b8f38fc810ccf5b418') in 0.0269741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_525.asset
+  artifactKey: Guid(2867fc9efe20ccc4f95eb53ec180b47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_525.asset using Guid(2867fc9efe20ccc4f95eb53ec180b47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e557a47bfba6912299dec85883e899d9') in 0.0382166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424115 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_529.asset
+  artifactKey: Guid(7a53f733fdb5093479f65d4797355c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_529.asset using Guid(7a53f733fdb5093479f65d4797355c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c4aab899d19a6e8b9b86d560a26eaa4') in 0.023075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_537.asset
+  artifactKey: Guid(6172ec81e4d739d43833a69a93a68ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_537.asset using Guid(6172ec81e4d739d43833a69a93a68ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65cf05d720645005f4c649368eb3c927') in 0.028321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_536.asset
+  artifactKey: Guid(698ef857488991f498d3a72a0b07d8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_536.asset using Guid(698ef857488991f498d3a72a0b07d8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bcf2d0cf54b3ce4aee4e6c9d8935c73') in 0.0482848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_540.asset
+  artifactKey: Guid(be3107c44cca2404c90faa923f6db068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_540.asset using Guid(be3107c44cca2404c90faa923f6db068) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a260df6be6f04800fe40240101807fa2') in 0.0195474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_544.asset
+  artifactKey: Guid(dbf0bc45830aa8748b87154ba71fbc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_544.asset using Guid(dbf0bc45830aa8748b87154ba71fbc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f649c52d17d27b578249c0a062fb74b') in 0.0380665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_545.asset
+  artifactKey: Guid(99c44e076ddd6864b9539f2ea8b4385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_545.asset using Guid(99c44e076ddd6864b9539f2ea8b4385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa40fc00ecb758cce05a2b01ac21f2fd') in 0.0218892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.034968 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/Square.controller
+  artifactKey: Guid(c7be2b1b52b6b4c44b8968d6ad92979f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/Dungeon (MRRD)/Square.controller using Guid(c7be2b1b52b6b4c44b8968d6ad92979f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fda58b79d1545f78b0b0a6a5399fdee9') in 0.0163376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.029328 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_550.asset
+  artifactKey: Guid(f57c8eed2d6c0b641a1ee6deba1a370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_550.asset using Guid(f57c8eed2d6c0b641a1ee6deba1a370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7b266f72304f25cab3fe2314cd89ae5') in 0.024094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004153 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_553.asset
+  artifactKey: Guid(1c1904b90e619394cb38729a703f331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_553.asset using Guid(1c1904b90e619394cb38729a703f331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc7ab060e0e19837016a9ae048c3e824') in 0.0455639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_573.asset
+  artifactKey: Guid(43fe8e2e96c352d44819900442b5ce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_573.asset using Guid(43fe8e2e96c352d44819900442b5ce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b297efe3911245c1dfbd78b03ae4ad8b') in 0.0293776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_563.asset
+  artifactKey: Guid(9396ffaac05842c4ab36e7453eec1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_563.asset using Guid(9396ffaac05842c4ab36e7453eec1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '321e04eb2bb93f628c55a05856ebef7d') in 0.0312313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_552.asset
+  artifactKey: Guid(2ab8d041e8c6d6e478e89421cde7bfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_552.asset using Guid(2ab8d041e8c6d6e478e89421cde7bfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ede9861ef362e73809720913c716fa95') in 0.0296868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_567.asset
+  artifactKey: Guid(fb19b4229ff7aaa45a24d8a1db9e1153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_567.asset using Guid(fb19b4229ff7aaa45a24d8a1db9e1153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19f68cdaa35ad19ba7ab03bfc60253f3') in 0.0307472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_570.asset
+  artifactKey: Guid(7db52514703cd574cb258bb6a616f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_570.asset using Guid(7db52514703cd574cb258bb6a616f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '514e687bdf1e47827e7012754cbe40a9') in 0.0256204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_561.asset
+  artifactKey: Guid(a6a89e5f285625d4ca336fddd9dd4145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_561.asset using Guid(a6a89e5f285625d4ca336fddd9dd4145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2a95169d1ec1cbd684675fc210c8723') in 0.0282962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_554.asset
+  artifactKey: Guid(dcef7f5f998022441a61f080fd4f9536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_554.asset using Guid(dcef7f5f998022441a61f080fd4f9536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20041a9f3ed3e918726b281c72f5401e') in 0.0379803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_576.asset
+  artifactKey: Guid(6509f9ce66e33fe4da218f269ffa6b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_576.asset using Guid(6509f9ce66e33fe4da218f269ffa6b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd46dc327ce8bbc2b42cf6ae9764cb976') in 0.066838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_566.asset
+  artifactKey: Guid(677f8b2a1e595c94ea475fe813e8595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_566.asset using Guid(677f8b2a1e595c94ea475fe813e8595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3daf6b7053460d3dd665e92fa9626a03') in 0.0499953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_587.asset
+  artifactKey: Guid(29f470d4a5e03064cb8cd7225f258b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_587.asset using Guid(29f470d4a5e03064cb8cd7225f258b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f12be9cd396c73e4cdd4600134babca0') in 0.0426289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_572.asset
+  artifactKey: Guid(e4b234639e0051348a64b821caa468d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_572.asset using Guid(e4b234639e0051348a64b821caa468d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa65b0b178d5ffd6d778b53da1f915e4') in 0.033688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_569.asset
+  artifactKey: Guid(ec2865faf4d100641bf42e4a066e380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_569.asset using Guid(ec2865faf4d100641bf42e4a066e380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1195d93d7c2494d0bd2d203f2951d3be') in 0.0474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_564.asset
+  artifactKey: Guid(0b3fd622a1ebd2540a189836b74b57b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_564.asset using Guid(0b3fd622a1ebd2540a189836b74b57b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c467deee9c0edd1d0e2fb9da8ba535af') in 0.0689142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_577.asset
+  artifactKey: Guid(4c88a451c5df1fe46ba212bd94c5ac0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_577.asset using Guid(4c88a451c5df1fe46ba212bd94c5ac0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b1e3df6cd64c0098c2360b791956d86') in 0.0536758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_581.asset
+  artifactKey: Guid(2401acf4692aa9141b28ecd3fb9e1509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_581.asset using Guid(2401acf4692aa9141b28ecd3fb9e1509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75ae3a0eaafc591c6ea3a503e0978f2e') in 0.0259002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_557.asset
+  artifactKey: Guid(52573a5427b35c244bc0c79f7d4119fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_557.asset using Guid(52573a5427b35c244bc0c79f7d4119fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4a1a0ec49092faf8eff76ae27949347') in 0.038229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_588.asset
+  artifactKey: Guid(b007992b3dec4324bafe3613b6ce0e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_588.asset using Guid(b007992b3dec4324bafe3613b6ce0e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f32d8702011ef84516a4d4f64ffde50') in 0.0860339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_575.asset
+  artifactKey: Guid(a512cf76e35fc014bb38acbd86b8753d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_575.asset using Guid(a512cf76e35fc014bb38acbd86b8753d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af528fc61f359c2036f3c9d9a2147c84') in 0.0571987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_583.asset
+  artifactKey: Guid(4b47cda203d28ba4a9d6a7676f8ef5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_583.asset using Guid(4b47cda203d28ba4a9d6a7676f8ef5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38397c188b65550736e7e644848309fd') in 0.0417135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_558.asset
+  artifactKey: Guid(eba99d3db93902e42a333c240f1c7e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon (MRRD)/FD_Dungeon_Free_558.asset using Guid(eba99d3db93902e42a333c240f1c7e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f54741d8eb837b6c636fbaf15d2dcfe') in 0.0551599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -6,12 +6,14 @@ public class PlayerSword : MonoBehaviour
     public Animator animator;
     private int SwordLayerIndex = 2;
     public bool hasSword = false;
+    private bool isThrowing = false;
 
     public GameObject swordProjectilePrefab;
 
     public void ActiveSwordLayer()
     {
         hasSword = true;
+        
         animator.SetLayerWeight(SwordLayerIndex, 1f);
     }
 
@@ -23,8 +25,9 @@ public class PlayerSword : MonoBehaviour
 
     public void ThrowSword(Vector2 direction)
     {
-        if (!hasSword) return;
+        if (!hasSword || isThrowing ) return;
 
+        isThrowing = true;
         // 1. Lance l'animation D'ABORD (le layer est encore actif)
         animator.SetTrigger("Throw");
 
@@ -37,6 +40,7 @@ public class PlayerSword : MonoBehaviour
         // Attend la durée de l'animation de lancer
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(2).length);
 
+        isThrowing = false;
         // Maintenant on désactive le layer et on spawn le projectile
         DeactivateSwordLayer();
 

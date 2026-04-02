@@ -1,19 +1,13 @@
-﻿/* Author : Raphaël Marczak - 2018/2020, for MIAMI Teaching (IUT Tarbes) and MMI Teaching (IUT Bordeaux Montaigne)
- * 
- * This work is licensed under the CC0 License. 
- * 
- */
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// This class is used to teleport the player from one scene to another
-// If the scene is different, then the previous scene is disabled and the new
-// one is enabled ; and the map indication is updated accordingly
-public class Teleport : MonoBehaviour {
+public class Teleport : MonoBehaviour
+{
     public GameObject m_teleportTo = null;
-    
+    public DialogManager dialogManager;
+    public List<DialogPage> noKeyPages; // Message si pas de clé
+
     private GameObject m_player = null;
 
     private void Awake()
@@ -23,12 +17,22 @@ public class Teleport : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-     
         if (collision.gameObject.tag == "Player")
         {
-            TeleportPlayer();
-        }
+            PlayerBehavior inventory = collision.GetComponent<PlayerBehavior>();
 
+            if (inventory != null && inventory.hasKey)
+            {
+                TeleportPlayer();
+                inventory.hasKey = false;
+            }
+            else
+            {
+                // Affiche le message si pas de clé
+                if (dialogManager != null && noKeyPages.Count > 0)
+                    dialogManager.SetDialog(noKeyPages);
+            }
+        }
     }
 
     private void TeleportPlayer()
@@ -39,7 +43,6 @@ public class Teleport : MonoBehaviour {
             {
                 this.transform.parent.gameObject.SetActive(false);
                 m_teleportTo.transform.parent.gameObject.SetActive(true);
-
                 m_player.transform.position = m_teleportTo.transform.position;
             }
         }

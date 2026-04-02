@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/cleme/Documents/unity/zelda like/Packages/manifest.json
+    m_FilePath: C:/Users/cleme/Documents/unity/zelda_like/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 639060154343215103
     m_Hash: 64635604
   m_LockFileStatus:
-    m_FilePath: C:/Users/cleme/Documents/unity/zelda like/Packages/packages-lock.json
+    m_FilePath: C:/Users/cleme/Documents/unity/zelda_like/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -19,7 +19,7 @@ m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/cleme/Documents/unity/zelda like/Packages
+m_ProjectPath: C:/Users/cleme/Documents/unity/zelda_like/Packages
 m_EditorVersion: 6000.0.65f1 (a18e2220bd50)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\cleme\Documents\unity\zelda like\Library\PackageCache\com.unity.2d.sprite@6be4bb429b13
+  resolvedPath: C:\Users\cleme\Documents\unity\zelda_like\Library\PackageCache\com.unity.2d.sprite@6be4bb429b13
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -106,7 +106,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\cleme\Documents\unity\zelda like\Library\PackageCache\com.unity.2d.tilemap@68c8200b1321
+  resolvedPath: C:\Users\cleme\Documents\unity\zelda_like\Library\PackageCache\com.unity.2d.tilemap@68c8200b1321
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -202,7 +202,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.1.0
   source: 1
-  resolvedPath: C:\Users\cleme\Documents\unity\zelda like\Library\PackageCache\com.unity.2d.tilemap.extras@13634da7dbe0
+  resolvedPath: C:\Users\cleme\Documents\unity\zelda_like\Library\PackageCache\com.unity.2d.tilemap.extras@13634da7dbe0
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -279,10 +279,12 @@ m_ResolvedPackages:
     - 6.0.1
     - 7.0.0-exp.1
     - 7.0.0
+    - 7.0.1
     - 8.0.0-exp.1
     - 8.0.0
     - 8.0.1
     - 8.0.2
+    - 8.88.0-exp.1
     compatible:
     - 4.1.0
     recommended: 4.1.0
@@ -369,7 +371,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\cleme\Documents\unity\zelda like\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\cleme\Documents\unity\zelda_like\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -462,7 +464,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\cleme\Documents\unity\zelda like\Library\PackageCache\com.unity.ugui@cdea37cdf817
+  resolvedPath: C:\Users\cleme\Documents\unity\zelda_like\Library\PackageCache\com.unity.ugui@cdea37cdf817
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI

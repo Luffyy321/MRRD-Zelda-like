@@ -22,7 +22,7 @@ public class PlayerBehavior : MonoBehaviour
     public Sprite m_rightSprite = null;
     public Sprite m_backSprite = null;
 
-    public GameObject m_fireBall = null; // Object the player can shoot
+    public bool hasKey = false;
 
     public GameObject messagePrefab = null;
     public GameObject worlds = null;
@@ -192,6 +192,7 @@ public class PlayerBehavior : MonoBehaviour
         // If the map is displayed, the player should not be updated
         if (m_dialogDisplayer.IsOnScreen() || m_map.activeSelf)
         {
+            m_animator.SetFloat("Speed", 0f);
             return;
         }
 

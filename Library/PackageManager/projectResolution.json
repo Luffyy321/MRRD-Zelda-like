@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "C:/Users/cleme/Documents/unity/zelda like/Packages",
+    "projectPath": "C:/Users/cleme/Documents/unity/zelda_like/Packages",
     "unityVersion": "6000.0.65f1"
   },
   "inputs": [
-    "C:\\Users\\cleme\\Documents\\unity\\zelda like\\Packages\\manifest.json",
-    "C:\\Users\\cleme\\Documents\\unity\\zelda like\\Packages\\packages-lock.json",
+    "C:\\Users\\cleme\\Documents\\unity\\zelda_like\\Packages\\manifest.json",
+    "C:\\Users\\cleme\\Documents\\unity\\zelda_like\\Packages\\packages-lock.json",
     "C:\\Users\\cleme\\OneDrive\\Documents\\unity\\6000.0.65f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda like\\Library\\PackageCache\\com.unity.2d.sprite@6be4bb429b13",
+      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda_like\\Library\\PackageCache\\com.unity.2d.sprite@6be4bb429b13",
       "fingerprint": "6be4bb429b13231b7e2e81f7a2a8188e1e76add2",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -22,7 +22,7 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda like\\Library\\PackageCache\\com.unity.2d.tilemap@68c8200b1321",
+      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda_like\\Library\\PackageCache\\com.unity.2d.tilemap@68c8200b1321",
       "fingerprint": "68c8200b1321de0d0e19d4bf6e51d08ef16d1a3d",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -32,7 +32,7 @@
     "com.unity.2d.tilemap.extras@4.1.0": {
       "name": "com.unity.2d.tilemap.extras",
       "displayName": "2D Tilemap Extras",
-      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda like\\Library\\PackageCache\\com.unity.2d.tilemap.extras@13634da7dbe0",
+      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda_like\\Library\\PackageCache\\com.unity.2d.tilemap.extras@13634da7dbe0",
       "fingerprint": "13634da7dbe06c39bac6bbe2d1a166cf91f58ad7",
       "editorCompatibility": "6000.0.0a1",
       "version": "4.1.0",
@@ -42,7 +42,7 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda like\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda_like\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
       "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
@@ -52,7 +52,7 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda like\\Library\\PackageCache\\com.unity.ugui@cdea37cdf817",
+      "resolvedPath": "C:\\Users\\cleme\\Documents\\unity\\zelda_like\\Library\\PackageCache\\com.unity.ugui@cdea37cdf817",
       "fingerprint": "cdea37cdf8176257a62ff9a0d5d36c5b3a1c16e6",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
