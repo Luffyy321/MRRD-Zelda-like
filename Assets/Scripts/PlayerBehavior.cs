@@ -25,6 +25,7 @@ public class PlayerBehavior : MonoBehaviour
     public bool hasKey = false;
 
     public GameObject messagePrefab = null;
+    public GameObject messagePanel;
     public GameObject worlds = null;
 
     public GameObject m_map = null;
@@ -181,6 +182,11 @@ public class PlayerBehavior : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M))
         {
             m_map.SetActive(!m_map.activeSelf);
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            messagePanel.SetActive(!messagePanel.activeSelf);
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))

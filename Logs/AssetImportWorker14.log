@@ -1,0 +1,809 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.65f1 (a18e2220bd50) revision 10587682'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'fr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-04-06T16:14:47Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cleme" at "2026-04-06T16:14:47.3611057Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Users\cleme\OneDrive\Documents\unity\6000.0.65f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+C:/Users/cleme/Documents/unity/zelda_like
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+64529
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/cleme/Documents/unity/zelda_like
+C:/Users/cleme/Documents/unity/zelda_like
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24324]  Target information:
+
+Player connection [24324]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 3463253052 [EditorId] 3463253052 [Version] 1048832 [Id] WindowsEditor(7,AcerAspire3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24324]  * "[IP] 10.188.94.195 [Port] 0 [Flags] 2 [Guid] 3463253052 [EditorId] 3463253052 [Version] 1048832 [Id] WindowsEditor(7,AcerAspire3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24324] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24324] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.65f1 (a18e2220bd50)
+[Subsystems] Discovering subsystems at path C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cleme/Documents/unity/zelda_like/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8081 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              256a7623aac64cb997925dd1cdd7a327
+  Correlation Id:          8f2560a6a472b187f154929fbd60e16b
+  External correlation Id: 3016916250262971916
+  Machine Id:              TKYlbcUYATvSqXUcPGtrgB1i15k=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cleme" (connect: 0.00s, validation: 0.00s, handshake: 3.46s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cleme-notifications" at "2026-04-06T16:14:50.8289921Z"
+[Licensing::Module] Licensing Background thread has ended after 3.47s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013072 seconds.
+- Loaded All Assemblies, in  1.526 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.205 seconds
+Domain Reload Profiling: 2719ms
+	BeginReloadAssembly (557ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (139ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (190ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (565ms)
+			TypeCache.Refresh (562ms)
+				TypeCache.ScanAssembly (523ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1205ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1096ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (80ms)
+			SetLoadedEditorAssemblies (101ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067137549237-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.957 seconds
+Refreshing native plugins compatible for Editor in 0.03 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.210 seconds
+Domain Reload Profiling: 2156ms
+	BeginReloadAssembly (620ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (49ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (40ms)
+			BuildScriptInfoCaches (16ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (889ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 601 unused Assets / (128.1 KB). Loaded Objects now: 1120.
+Memory consumption went from 60.4 MB to 60.2 MB.
+Total: 6.813600 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.056500 ms MarkObjects: 6.315600 ms  DeleteObjects: 0.317600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 290453.661717 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Plant with Shadow_257.asset
+  artifactKey: Guid(84062c308198c554e9267f09f9bbc245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Plant with Shadow_257.asset using Guid(84062c308198c554e9267f09f9bbc245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c699d5431e7c40ca8b86b262f4fa03a') in 0.2330692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155363 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Plant with Shadow_268.asset
+  artifactKey: Guid(490fba7879319534c807ba8cfa5e7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Plant with Shadow_268.asset using Guid(490fba7879319534c807ba8cfa5e7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e569ce8f5a7160989d62a026a5ddfdf1') in 0.0333807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Plant with Shadow_269.asset
+  artifactKey: Guid(cf26aad23dcde6848b49bd0d6f84865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Plant with Shadow_269.asset using Guid(cf26aad23dcde6848b49bd0d6f84865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c13277b5df9506f99c9890071267b06e') in 0.0350971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Plant with Shadow_275.asset
+  artifactKey: Guid(401863b5e7c4acc4495a03e66385c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Plant with Shadow_275.asset using Guid(401863b5e7c4acc4495a03e66385c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce2f50130c30ac4f27eb3b57a11ace1a') in 0.0361648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329754 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Props with Shadow_2.asset
+  artifactKey: Guid(a6ec049227813f14d8b1e2d8762cca66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Props with Shadow_2.asset using Guid(a6ec049227813f14d8b1e2d8762cca66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32a472adae0fba94c90363bf2f1f8e6c') in 0.0273705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Props with Shadow_9.asset
+  artifactKey: Guid(662433b15643b7f4abb2da9c8ea2230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Props with Shadow_9.asset using Guid(662433b15643b7f4abb2da9c8ea2230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfb291fa09545151718cb752849f957a') in 0.0364171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033688 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Props with Shadow_13.asset
+  artifactKey: Guid(a399c2fc65f2d22479f90a61e9d5b499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Props with Shadow_13.asset using Guid(a399c2fc65f2d22479f90a61e9d5b499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c891e85aca6bf730ecf7c0c7ef55230d') in 0.0313624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Props with Shadow_18.asset
+  artifactKey: Guid(268f5c9c877d7b6459c9e6ae57832e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Props with Shadow_18.asset using Guid(268f5c9c877d7b6459c9e6ae57832e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3542a697be552e7188482a03f307768') in 0.0334996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Props with Shadow_20.asset
+  artifactKey: Guid(682a74feb65c79547a3a20bd640b4879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Props with Shadow_20.asset using Guid(682a74feb65c79547a3a20bd640b4879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '705ae41673dcc76561721df1034ef4c8') in 0.0308612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.060056 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Props with Shadow_24.asset
+  artifactKey: Guid(a98aae787d2192941bed11f476c74df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Props with Shadow_24.asset using Guid(a98aae787d2192941bed11f476c74df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faad0d7eb22e8c016bb53347dacad0a1') in 0.0222958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Props with Shadow_25.asset
+  artifactKey: Guid(db272966681d3e341992f4d2ff200f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Props with Shadow_25.asset using Guid(db272966681d3e341992f4d2ff200f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'becb7638e135dff4bb1ed45f3645aa40') in 0.1647512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/temple/tiles props/TX Props with Shadow_26.asset
+  artifactKey: Guid(227eba5f5002f5f459183db330389b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/temple/tiles props/TX Props with Shadow_26.asset using Guid(227eba5f5002f5f459183db330389b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7139a60ab694beef556f98e0aba68b03') in 0.0273886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.245004 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_91.asset
+  artifactKey: Guid(90bd34202a436ba48bd2cebb6d3af76e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_91.asset using Guid(90bd34202a436ba48bd2cebb6d3af76e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '573ddaec013a6b78688d80ddffbc5a14') in 0.3357958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_111.asset
+  artifactKey: Guid(02892874f1a067040b32bb67985370b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_111.asset using Guid(02892874f1a067040b32bb67985370b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21df72c252820d33eb8a98da11a2ec1a') in 0.0302249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_119.asset
+  artifactKey: Guid(be91e8b493b669a4ea56fedce505a5c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_119.asset using Guid(be91e8b493b669a4ea56fedce505a5c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '212c34232057be1b6a4ea2393e30d584') in 0.0433753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_73.asset
+  artifactKey: Guid(bbc31704387d839429f69ac6fe1a90c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_73.asset using Guid(bbc31704387d839429f69ac6fe1a90c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81d66e2ae5a9265a6520ad2541f50536') in 0.0370234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_255.asset
+  artifactKey: Guid(cd394b75af50dc94db2b083c3c594864) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_255.asset using Guid(cd394b75af50dc94db2b083c3c594864) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a5645bb63cb38de7649f8a833338f1a') in 0.0386391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_137.asset
+  artifactKey: Guid(a92eda74e34920246a0d4a9129f2e55e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_137.asset using Guid(a92eda74e34920246a0d4a9129f2e55e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ad70073ff2a92118d478928bc8dd145') in 0.0321742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_167.asset
+  artifactKey: Guid(ed52b7b7d2bab1047b453b45073b30f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_167.asset using Guid(ed52b7b7d2bab1047b453b45073b30f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e3e5e3b5fbe0f6e6fd5f5fdd132fefc') in 0.0357151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_75.asset
+  artifactKey: Guid(da161ee7ebee2bd44bbeb4809fae87cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_75.asset using Guid(da161ee7ebee2bd44bbeb4809fae87cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10f3a76ad757d36f5fe55495f6bd63de') in 0.0310023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_13.asset
+  artifactKey: Guid(5647e547f3ca1ae4c9f1c66116d4906e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_13.asset using Guid(5647e547f3ca1ae4c9f1c66116d4906e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb898247e5a8952c2a1e3cf7c93d41e5') in 0.0318417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_230.asset
+  artifactKey: Guid(ebd2d4560e7f19c4f9b48116826f1f34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_230.asset using Guid(ebd2d4560e7f19c4f9b48116826f1f34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17fe740e1202faccbc11553610a801f4') in 0.0355012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_275.asset
+  artifactKey: Guid(401863b5e7c4acc4495a03e66385c4c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_275.asset using Guid(401863b5e7c4acc4495a03e66385c4c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23353b1e6ce29f931cc2e7bcab99bd97') in 0.0299811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_192.asset
+  artifactKey: Guid(175630b69a2e91944afd3d46a83eb1cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_192.asset using Guid(175630b69a2e91944afd3d46a83eb1cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b5cc1a50984a625a14692b0fe6927a3') in 0.0339394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_48.asset
+  artifactKey: Guid(dc06db2771190914898b0222f02d5f89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_48.asset using Guid(dc06db2771190914898b0222f02d5f89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00194639c8c4d699f2742a9d337fc368') in 0.0284303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_273.asset
+  artifactKey: Guid(f2c95ba559fb44c45961bfa5feb8e2db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_273.asset using Guid(f2c95ba559fb44c45961bfa5feb8e2db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7634ed5b572528b582a255d1c853b6b1') in 0.0395091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_29.asset
+  artifactKey: Guid(81b403c1fa24dfe4181780e7e73a7c3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_29.asset using Guid(81b403c1fa24dfe4181780e7e73a7c3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2edcaa32711611c3ab4b79b650c9f2ad') in 0.0324032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_12.asset
+  artifactKey: Guid(df43ecf3b4941624db039de37b2901c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_12.asset using Guid(df43ecf3b4941624db039de37b2901c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6febf23737fd72943bcc77024d237e92') in 0.0302955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_7.asset
+  artifactKey: Guid(aea8bbf73aee7574fbc2315e160a3f2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_7.asset using Guid(aea8bbf73aee7574fbc2315e160a3f2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '130f02b44c017b5f8dcadf3901767cc0') in 0.0332006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_159.asset
+  artifactKey: Guid(becf6cf295f8c9849950ccf116b2dec6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_159.asset using Guid(becf6cf295f8c9849950ccf116b2dec6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c462f89b16b746ad7c16e6ad3e1de355') in 0.0307232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_197.asset
+  artifactKey: Guid(fa8c3bd722380a64381919ee80a95fe4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_197.asset using Guid(fa8c3bd722380a64381919ee80a95fe4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43cc623d771057703ac95a36d92faa47') in 0.0302127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_171.asset
+  artifactKey: Guid(352e8a2508b72b04ca3ec226143c326d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_171.asset using Guid(352e8a2508b72b04ca3ec226143c326d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f8931be216c26bec4b970166f2ea632') in 0.0317309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_166.asset
+  artifactKey: Guid(5fd91e856e563c04a91c1b29dc8f9e6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_166.asset using Guid(5fd91e856e563c04a91c1b29dc8f9e6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc45e816b0bb32056378d29b421723ab') in 0.0376342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_31.asset
+  artifactKey: Guid(14ff291575b9168478df2522987e84cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_31.asset using Guid(14ff291575b9168478df2522987e84cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5baf84814c42a9de84fc105ef73920ab') in 0.0300614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_20.asset
+  artifactKey: Guid(65400b0c66bdc964ba2ec93410a9848d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_20.asset using Guid(65400b0c66bdc964ba2ec93410a9848d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '830afc022bed15d223a53b82a3aa8e10') in 0.0318482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_36.asset
+  artifactKey: Guid(1fd84eda8ca369543aff5fd5dac5bc8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_36.asset using Guid(1fd84eda8ca369543aff5fd5dac5bc8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f057a1120d6a423acab875ad984b1ded') in 0.031953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_76.asset
+  artifactKey: Guid(78892e9a7bb1c7d4cbbc9b5e5cdb45e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_76.asset using Guid(78892e9a7bb1c7d4cbbc9b5e5cdb45e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0aee23971b84cfc3205a7eeb93cf79ca') in 0.0328286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_66.asset
+  artifactKey: Guid(9d538258334e4ae4db8c93aff76b590d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_66.asset using Guid(9d538258334e4ae4db8c93aff76b590d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa5309f971fcb52d805d67403eca7c58') in 0.0310044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_208.asset
+  artifactKey: Guid(ffa88cf88be66024ba9ef273fafce0ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_208.asset using Guid(ffa88cf88be66024ba9ef273fafce0ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73441a246405d69595a9731573b14483') in 0.0311842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_90.asset
+  artifactKey: Guid(124f4a885e8a5274c879128e0980ed63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_90.asset using Guid(124f4a885e8a5274c879128e0980ed63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01790a99eebecd6a9839e81315e55bf9') in 0.0298057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_134.asset
+  artifactKey: Guid(5f32622b8c5e4f3459b3f46ef600a39a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_134.asset using Guid(5f32622b8c5e4f3459b3f46ef600a39a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '540f039124aaa455fe8d0e51f97ea79a') in 0.0355155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_267.asset
+  artifactKey: Guid(408c2bc89a2b19343a40e2f6f3ef8374) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_267.asset using Guid(408c2bc89a2b19343a40e2f6f3ef8374) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b85366fafe9b2bbc4eb47a9bf6958cb') in 0.031394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_147.asset
+  artifactKey: Guid(b53c6a09d9ca3824e8d2d1977cf391b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_147.asset using Guid(b53c6a09d9ca3824e8d2d1977cf391b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10d6651cca2a5046a41196b0dec66dcd') in 0.0289933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_183.asset
+  artifactKey: Guid(d6ea71384f6f42545bccb145bf1e7b29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_183.asset using Guid(d6ea71384f6f42545bccb145bf1e7b29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9689db5f54b65cb0e9c757ca0b169a31') in 0.0373343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_162.asset
+  artifactKey: Guid(4abe230946cb9504090ee823187645b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_162.asset using Guid(4abe230946cb9504090ee823187645b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dc1895db2c62922c77e0897fcae4334') in 0.0324768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_270.asset
+  artifactKey: Guid(15fd34b94a097424fa500856aeec5c00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_270.asset using Guid(15fd34b94a097424fa500856aeec5c00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54d81d8367c72aa877f62093f71df645') in 0.033457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_52.asset
+  artifactKey: Guid(fdb9f0597473ba84b99b1a1b0e2668f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_52.asset using Guid(fdb9f0597473ba84b99b1a1b0e2668f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d91530473bd502f1726758e1d3e6669') in 0.0306536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_234.asset
+  artifactKey: Guid(f61365e7a351ce045ad813bd48ef3653) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_234.asset using Guid(f61365e7a351ce045ad813bd48ef3653) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0e8832bfad9463413cf8332a0ad8666') in 0.0306809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_22.asset
+  artifactKey: Guid(8305a8183877cb741a45ecd5b96e60e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_22.asset using Guid(8305a8183877cb741a45ecd5b96e60e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '264e03126b223cdc2b06f156bd480e62') in 0.0291334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_77.asset
+  artifactKey: Guid(394c070f98da16048b60fcdb7393b533) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_77.asset using Guid(394c070f98da16048b60fcdb7393b533) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7bf51fc0ef3b6d4bda5102061bdff5f') in 0.0328942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_191.asset
+  artifactKey: Guid(b50f6fdcdf0a4c548942d2e368785323) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_191.asset using Guid(b50f6fdcdf0a4c548942d2e368785323) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5da780e25974c39f6e2eef9dde5dd8e5') in 0.0299324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_250.asset
+  artifactKey: Guid(49529c0d869815d47af60faa70998f50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_250.asset using Guid(49529c0d869815d47af60faa70998f50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a8aa722b4d9d4dceb0b8d9eae9004bf') in 0.0319892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_80.asset
+  artifactKey: Guid(7dbefdccddc6c1a4ab271867c9eac75e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_80.asset using Guid(7dbefdccddc6c1a4ab271867c9eac75e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0d38edc334f8f6c37d4c9d17d6925c0') in 0.0374032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_55.asset
+  artifactKey: Guid(7cef1f5d851cede438b5432091b41dc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_55.asset using Guid(7cef1f5d851cede438b5432091b41dc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50c2d96f4b0c921672f59cb960563222') in 0.0551156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_132.asset
+  artifactKey: Guid(5c3b180d08322124d910ad9d26aeca3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_132.asset using Guid(5c3b180d08322124d910ad9d26aeca3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09aac88441873a2026e740ba2af682e3') in 0.0378755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_112.asset
+  artifactKey: Guid(0fadfb3de80748444b631acf3a08af80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_112.asset using Guid(0fadfb3de80748444b631acf3a08af80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a8b038591543e7f0c63599e6d8aa9a8') in 0.0455924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_71.asset
+  artifactKey: Guid(ee47b45c7699d1f479d3c6a19d99b748) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_71.asset using Guid(ee47b45c7699d1f479d3c6a19d99b748) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0fe2ef1aa52e726157b4ed0a3d0555a') in 0.0342286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_4.asset
+  artifactKey: Guid(9571834e9fa5c5f47b34b88be77a66c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_4.asset using Guid(9571834e9fa5c5f47b34b88be77a66c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd98d3261465217e3a748bcf40c6f60e6') in 0.0368761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_227.asset
+  artifactKey: Guid(e3ed701e7d4b5d7419ddcb32aba0bc5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_227.asset using Guid(e3ed701e7d4b5d7419ddcb32aba0bc5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72a9465270f3af1a04e10acdfc914cf7') in 0.028009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_67.asset
+  artifactKey: Guid(fe34f49ee17e32f47a7fd0823a91fcf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_67.asset using Guid(fe34f49ee17e32f47a7fd0823a91fcf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba3e00c7d2ee821486397703d9f04b55') in 0.0298566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_214.asset
+  artifactKey: Guid(41f00b6e41734a8459ef9f1c39e6b9ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_214.asset using Guid(41f00b6e41734a8459ef9f1c39e6b9ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17c828680c5c753c1b254abefeb09167') in 0.0319606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_152.asset
+  artifactKey: Guid(405fbdbd9379ac14da4e27b5be3d460f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_152.asset using Guid(405fbdbd9379ac14da4e27b5be3d460f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a10a4af01f2266e56cde0b95c432a6e') in 0.0269489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_164.asset
+  artifactKey: Guid(b76fb78eab0aa544c8b0d0ad72f483db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_164.asset using Guid(b76fb78eab0aa544c8b0d0ad72f483db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4389bdbdb1055a4b527eeec66c627e85') in 0.0297771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_216.asset
+  artifactKey: Guid(1f37eea5cf2c46644a771de23d4902a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_216.asset using Guid(1f37eea5cf2c46644a771de23d4902a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ec18f3cd431360a9745038035b2b43d') in 0.0330563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_272.asset
+  artifactKey: Guid(3db4626fe011b9a45b90cf2cdf95c307) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_272.asset using Guid(3db4626fe011b9a45b90cf2cdf95c307) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b657cdef682dfb5e6fbc272b486353da') in 0.0252306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_187.asset
+  artifactKey: Guid(81c68f9f7c2b4ff43bfe9dba35069018) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_187.asset using Guid(81c68f9f7c2b4ff43bfe9dba35069018) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b48bfb8a1682556a768192ba935f469b') in 0.0201752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_188.asset
+  artifactKey: Guid(2c790d7f90a2dab4eb9602e8842c319d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_188.asset using Guid(2c790d7f90a2dab4eb9602e8842c319d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58119110558191d9fe5bcede6d2662b7') in 0.0231525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_107.asset
+  artifactKey: Guid(5c8547b49361b034c902d523cd33da3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_107.asset using Guid(5c8547b49361b034c902d523cd33da3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a309c920d17bc5855c52f27f08ae3e8') in 0.0207787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_194.asset
+  artifactKey: Guid(5472267631789314da24aa98d5403a95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_194.asset using Guid(5472267631789314da24aa98d5403a95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75dec04088a54b13c9e9a124a896f7c7') in 0.0209039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_251.asset
+  artifactKey: Guid(2e84e796b34ffa74791a4c77f699255e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_251.asset using Guid(2e84e796b34ffa74791a4c77f699255e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31387addca778af378373194ddf8bdea') in 0.018323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_276.asset
+  artifactKey: Guid(205187d84bc209c499dee8dec8b18a57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_276.asset using Guid(205187d84bc209c499dee8dec8b18a57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0046fb4ecefc6817af3c36d59661f686') in 0.0226625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_168.asset
+  artifactKey: Guid(f1d842360481a894c95f1ecebe0ea82e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_168.asset using Guid(f1d842360481a894c95f1ecebe0ea82e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3656ee045eb298d0a8083be068f3f4e4') in 0.0274589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_222.asset
+  artifactKey: Guid(813472eab50b70e4c8c7153848d13df9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_222.asset using Guid(813472eab50b70e4c8c7153848d13df9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f503aa9e0bc1e6b3638719424f3c719') in 0.0296964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_239.asset
+  artifactKey: Guid(5046cf183af13574cb51bdae3f690e7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_239.asset using Guid(5046cf183af13574cb51bdae3f690e7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '850a3d8b6642a9d42719920f76ec95fa') in 0.0350745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_143.asset
+  artifactKey: Guid(c6a45c4e5005d4d48893e47e9c044cf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tilesets/temple/tiles plants/TX Plant with Shadow_143.asset using Guid(c6a45c4e5005d4d48893e47e9c044cf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '283d2b23bc11ac4bd2a947f1d0768ea9') in 0.0295365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

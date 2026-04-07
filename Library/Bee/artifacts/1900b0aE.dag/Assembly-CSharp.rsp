@@ -381,8 +381,6 @@
 -analyzer:"C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/keyItem.cs"
-"Assets/pics.cs"
 "Assets/Scripts/attackHitbox.cs"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/autoDialog.cs"
@@ -393,8 +391,10 @@
 "Assets/Scripts/FollowGameObject.cs"
 "Assets/Scripts/HealthEnemy.cs"
 "Assets/Scripts/HealthPickup.cs"
+"Assets/Scripts/keyItem.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/ManaPotion.cs"
-"Assets/Scripts/message.cs"
+"Assets/Scripts/pics.cs"
 "Assets/Scripts/PlayerAttaque.cs"
 "Assets/Scripts/PlayerAttaqueHitbox.cs"
 "Assets/Scripts/PlayerBehavior.cs"
@@ -407,6 +407,7 @@
 "Assets/Scripts/SwordScript.cs"
 "Assets/Scripts/Teleport.cs"
 "Assets/Scripts/validateMessage.cs"
+"Assets/Scripts/videoManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -1,0 +1,1483 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cleme" at "2026-04-05T19:33:31.9064782Z"
+Built from '6000.0/staging' branch; Version is '6000.0.65f1 (a18e2220bd50) revision 10587682'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'fr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-04-05T19:33:31Z
+
+COMMAND LINE ARGUMENTS:
+C:\Users\cleme\OneDrive\Documents\unity\6000.0.65f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/cleme/Documents/unity/zelda_like
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+53294
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/cleme/Documents/unity/zelda_like
+C:/Users/cleme/Documents/unity/zelda_like
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26220]  Target information:
+
+Player connection [26220]  * "[IP] 10.188.94.195 [Port] 0 [Flags] 2 [Guid] 3636022606 [EditorId] 3636022606 [Version] 1048832 [Id] WindowsEditor(7,AcerAspire3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26220] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26220] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.65f1 (a18e2220bd50)
+[Subsystems] Discovering subsystems at path C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cleme/Documents/unity/zelda_like/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8081 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              6b9d1bc322264c14bf719673c642ce86
+  Correlation Id:          8f2560a6a472b187f154929fbd60e16b
+  External correlation Id: 7767158398984469583
+  Machine Id:              TKYlbcUYATvSqXUcPGtrgB1i15k=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cleme" (connect: 0.00s, validation: 0.00s, handshake: 2.33s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cleme-notifications" at "2026-04-05T19:33:34.235482Z"
+[Licensing::Module] Licensing Background thread has ended after 2.33s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/cleme/OneDrive/Documents/unity/6000.0.65f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003828 seconds.
+- Loaded All Assemblies, in  0.561 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 1022ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (205ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (466ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067137549237-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.488 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 935ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (41ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (16ms)
+			BuildScriptInfoCaches (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (143.0 KB). Loaded Objects now: 1116.
+Memory consumption went from 59.1 MB to 59.0 MB.
+Total: 4.211100 ms (FindLiveObjects: 0.098600 ms CreateObjectMapping: 0.040600 ms MarkObjects: 3.879000 ms  DeleteObjects: 0.191800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 598 unused Assets / (68.5 KB). Loaded Objects now: 1117.
+Memory consumption went from 58.8 MB to 58.7 MB.
+Total: 5.870100 ms (FindLiveObjects: 0.120900 ms CreateObjectMapping: 0.029500 ms MarkObjects: 5.534500 ms  DeleteObjects: 0.183000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 216290.612536 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57f4439c890985ef0ec23d71db9fa1ad') in 0.0079318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433549 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/MainMenu.cs using Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b8f5f2023403cc1f28e6fcfad5e5c32') in 0.1546566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.003 seconds
+Domain Reload Profiling: 1576ms
+	BeginReloadAssembly (374ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (74ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (62ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (725ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 598 unused Assets / (125.1 KB). Loaded Objects now: 1119.
+Memory consumption went from 59.3 MB to 59.2 MB.
+Total: 7.650600 ms (FindLiveObjects: 0.150300 ms CreateObjectMapping: 0.075000 ms MarkObjects: 6.963700 ms  DeleteObjects: 0.458900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.418 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.624 seconds
+Domain Reload Profiling: 1037ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (42ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (18ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 598 unused Assets / (72.5 KB). Loaded Objects now: 1119.
+Memory consumption went from 59.4 MB to 59.3 MB.
+Total: 6.329400 ms (FindLiveObjects: 0.114100 ms CreateObjectMapping: 0.053700 ms MarkObjects: 5.970600 ms  DeleteObjects: 0.189300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 76.338989 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69ee3551d58810a0f6f15dfb03ca598b') in 0.0041552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.533 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1299ms
+	BeginReloadAssembly (323ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (61ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (545ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 598 unused Assets / (110.5 KB). Loaded Objects now: 1119.
+Memory consumption went from 59.4 MB to 59.3 MB.
+Total: 4.973700 ms (FindLiveObjects: 0.114700 ms CreateObjectMapping: 0.057400 ms MarkObjects: 4.518800 ms  DeleteObjects: 0.280700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.471696 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd07fa8a2edd85ac79c3aa4e64d513297') in 0.0032159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.409 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 959ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (39ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 598 unused Assets / (59.0 KB). Loaded Objects now: 1119.
+Memory consumption went from 59.4 MB to 59.3 MB.
+Total: 4.153300 ms (FindLiveObjects: 0.096500 ms CreateObjectMapping: 0.036500 ms MarkObjects: 3.883300 ms  DeleteObjects: 0.136000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.397 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.551 seconds
+Domain Reload Profiling: 942ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (41ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 598 unused Assets / (34.1 KB). Loaded Objects now: 1119.
+Memory consumption went from 59.4 MB to 59.3 MB.
+Total: 4.312100 ms (FindLiveObjects: 0.095300 ms CreateObjectMapping: 0.028400 ms MarkObjects: 4.040000 ms  DeleteObjects: 0.147000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.408 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 939ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (35ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (16ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (537ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 598 unused Assets / (16.0 KB). Loaded Objects now: 1119.
+Memory consumption went from 59.4 MB to 59.3 MB.
+Total: 4.412800 ms (FindLiveObjects: 0.091100 ms CreateObjectMapping: 0.045800 ms MarkObjects: 4.130400 ms  DeleteObjects: 0.144500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1743.379139 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/MainMenu.cs using Guid(2984bdd4beb24184cb9f3357598fd4fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '526369e873c7c3b3a74622d0d0ca5c38') in 0.16353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.296648 seconds.
+  path: Assets/video
+  artifactKey: Guid(6769bfa2c0f63504aafd91fc92979aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/video using Guid(6769bfa2c0f63504aafd91fc92979aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b42761fa6ce1bbdee82c57bdd6856a30') in 0.0006242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931586 seconds.
+  path: Assets/video
+  artifactKey: Guid(6769bfa2c0f63504aafd91fc92979aab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/video using Guid(6769bfa2c0f63504aafd91fc92979aab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83bd9e79c1fdb82c9d1637f0097c6946') in 0.0125328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.363186 seconds.
+  path: Assets/video/TRUCK KUN HERE !!!.mp4
+  artifactKey: Guid(6a8c87111babb6244b2441f4b64d6f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/video/TRUCK KUN HERE !!!.mp4 using Guid(6a8c87111babb6244b2441f4b64d6f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39b3caefe8e1e439d6993063af97f5cd') in 0.0246669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.914688 seconds.
+  path: Assets/video/TRUCK KUN HERE !!!.mp4
+  artifactKey: Guid(6a8c87111babb6244b2441f4b64d6f3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/video/TRUCK KUN HERE !!!.mp4 using Guid(6a8c87111babb6244b2441f4b64d6f3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6ddde75e4559a2db8cd1b4e8e8e373f') in 0.0275747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.098179 seconds.
+  path: Assets/video/TRUCK KUN HERE !!!.mp4
+  artifactKey: Guid(6a8c87111babb6244b2441f4b64d6f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/video/TRUCK KUN HERE !!!.mp4 using Guid(6a8c87111babb6244b2441f4b64d6f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf77254df0766ce6190f9db223e4dd1b') in 0.0020023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.671925 seconds.
+  path: Assets/_Scenes/CinematicScene.unity
+  artifactKey: Guid(8beef44e7eab8724dac1bd221ceb0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/CinematicScene.unity using Guid(8beef44e7eab8724dac1bd221ceb0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64aa4ea40682bdce53ab62af6c2d1ab1') in 0.0006742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959644 seconds.
+  path: Assets/_Scenes/CinematicScene.unity
+  artifactKey: Guid(8beef44e7eab8724dac1bd221ceb0512) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Scenes/CinematicScene.unity using Guid(8beef44e7eab8724dac1bd221ceb0512) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4ce11583e87660a58d32fe2dcebbd6c') in 0.0135119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.792965 seconds.
+  path: Assets/_Scenes/Cinematic.unity
+  artifactKey: Guid(8beef44e7eab8724dac1bd221ceb0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Cinematic.unity using Guid(8beef44e7eab8724dac1bd221ceb0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36029789cf6214802916eb639581d53b') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.966998 seconds.
+  path: Assets/_Scenes/Cinematic.unity
+  artifactKey: Guid(8beef44e7eab8724dac1bd221ceb0512) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Scenes/Cinematic.unity using Guid(8beef44e7eab8724dac1bd221ceb0512) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '544b81a0d89562c5faed87e2bd3ecf3e') in 0.0175233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (29.2 KB). Loaded Objects now: 1121.
+Memory consumption went from 59.7 MB to 59.6 MB.
+Total: 6.929500 ms (FindLiveObjects: 0.117900 ms CreateObjectMapping: 0.030800 ms MarkObjects: 6.600300 ms  DeleteObjects: 0.178600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 369.477683 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a892452e784cad0eb52fb961a82a1a50') in 0.0165378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.467 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1064ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (60ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (54.1 KB). Loaded Objects now: 1121.
+Memory consumption went from 59.4 MB to 59.3 MB.
+Total: 7.106900 ms (FindLiveObjects: 0.101000 ms CreateObjectMapping: 0.031100 ms MarkObjects: 6.728100 ms  DeleteObjects: 0.245200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.615337 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0033144 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001997 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000651 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041544 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006412 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010813 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000679 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049343 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006489 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010649 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005626 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011983 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007328 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012311 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007212 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011088 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006264 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010180 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006215 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012492 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015004 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027296 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010656 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013577 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006881 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018893 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010827 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103473 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005944 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015338 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008984 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014112 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008521 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013733 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006016 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011970 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005464 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094466 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012644 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010305 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015714 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011532 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005853 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012859 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005714 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011932 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006133 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010805 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009026 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010683 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005823 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012271 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005764 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011900 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000644 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012239 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007009 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011006 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018115 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011936 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008053 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012011 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009992 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012150 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006593 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012888 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006477 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010102 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010264 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038884 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007273 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011856 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009355 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010057 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005833 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012096 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005794 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011466 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006157 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010481 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008824 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009801 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005708 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011505 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005852 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013160 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008106 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013602 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006328 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009924 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013919 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010426 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005685 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093988 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005384 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011218 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001319 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016488 seconds.
+  path: Assets/Scripts/videoManager.cs
+  artifactKey: Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoManager.cs using Guid(e5dbd58f7cde0c449a59aaefe05275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008911 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+  ERROR: Build asset version error: assets/scripts/videomanager.cs in SourceAssetDB has modification time of '2026-04-05T20:17:17.2536639Z' while content on disk has modification time of '2026-04-05T20:17:22.6280293Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.381 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 966ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (36ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (76.6 KB). Loaded Objects now: 1121.
+Memory consumption went from 59.4 MB to 59.3 MB.
+Total: 6.147500 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.070900 ms MarkObjects: 5.640400 ms  DeleteObjects: 0.292800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.442 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 989ms
+	BeginReloadAssembly (272ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (37ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (387ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (60.9 KB). Loaded Objects now: 1121.
+Memory consumption went from 59.4 MB to 59.4 MB.
+Total: 4.196800 ms (FindLiveObjects: 0.102200 ms CreateObjectMapping: 0.029500 ms MarkObjects: 3.916700 ms  DeleteObjects: 0.147000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 78.531267 seconds.
+  path: Assets/_Scenes/Menu.unity
+  artifactKey: Guid(3172cceae1310b947b35b97ddf533da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Menu.unity using Guid(3172cceae1310b947b35b97ddf533da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20d19698c1573531030c64529c83d06d') in 0.0033525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.515 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 1087ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (43ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (43.6 KB). Loaded Objects now: 1121.
+Memory consumption went from 59.4 MB to 59.4 MB.
+Total: 4.677700 ms (FindLiveObjects: 0.093400 ms CreateObjectMapping: 0.028500 ms MarkObjects: 4.378300 ms  DeleteObjects: 0.176000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.370 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 918ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (37ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (66.7 KB). Loaded Objects now: 1121.
+Memory consumption went from 59.4 MB to 59.4 MB.
+Total: 4.062100 ms (FindLiveObjects: 0.094500 ms CreateObjectMapping: 0.047100 ms MarkObjects: 3.784100 ms  DeleteObjects: 0.135200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.370 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 906ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (34ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (541ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 599 unused Assets / (63.1 KB). Loaded Objects now: 1121.
+Memory consumption went from 59.4 MB to 59.4 MB.
+Total: 6.470600 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.078000 ms MarkObjects: 6.021000 ms  DeleteObjects: 0.234700 ms)
+
+Prepare: number of updated asset objects reloaded= 0

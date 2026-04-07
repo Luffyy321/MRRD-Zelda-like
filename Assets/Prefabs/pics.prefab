@@ -128,7 +128,10 @@ MonoBehaviour:
   animator: {fileID: 823212688840786760}
   spikesCollider: {fileID: 679634095210941597}
   damage: 1
-  retractDelay: 2
+  retractDelay: 4
+  activateDuration: 0.167
+  retractDuration: 0.167
+  damageCooldown: 2
 --- !u!61 &679634095210941597
 BoxCollider2D:
   m_ObjectHideFlags: 0
